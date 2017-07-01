@@ -1,0 +1,3361 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get update 
+[sudo] hadoop 的密码： 
+命中:1 http://cn.archive.ubuntu.com/ubuntu xenial InRelease
+获取:2 http://cn.archive.ubuntu.com/ubuntu xenial/main Translation-zh_CN [74.8 kB]
+获取:3 http://cn.archive.ubuntu.com/ubuntu xenial/restricted Translation-zh_CN [1,652 B]
+获取:4 http://cn.archive.ubuntu.com/ubuntu xenial/universe Translation-zh_CN [172 kB]
+获取:5 http://cn.archive.ubuntu.com/ubuntu xenial/multiverse Translation-zh_CN [4,984 B]
+已下载 253 kB，耗时 16秒 (15.1 kB/s)                                      
+正在读取软件包列表... 完成
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ ap
+ap：未找到命令
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ ps
+  PID TTY          TIME CMD
+ 7157 pts/22   00:00:00 bash
+ 7518 pts/22   00:00:00 ps
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo fu
+function    funzip      fuser       fusermount  
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo fu
+function    funzip      fuser       fusermount  
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo fuser -vik /var/lib/dpkg/lock 
+                     用户     进程号 权限   命令
+/var/lib/dpkg/lock:  root       2848 F.... aptd
+杀死进程 2848 ? (y/N) y
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+没有可用的软件包 vim，但是它被其它的软件包引用了。
+这可能意味着这个缺失的软件包可能已被废弃，
+或者只能在其他发布源中找到
+
+E: 软件包 vim 没有可安装候选
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get update 
+获取:1 http://mirrors.sohu.com/ubuntu xenial InRelease [247 kB]
+获取:2 http://mirrors.sohu.com/ubuntu xenial/main amd64 Packages [1,201 kB]
+获取:3 http://mirrors.sohu.com/ubuntu xenial/main i386 Packages [1,196 kB]
+获取:4 http://mirrors.sohu.com/ubuntu xenial/main Translation-zh_CN [74.8 kB]
+获取:5 http://mirrors.sohu.com/ubuntu xenial/main Translation-en [568 kB]
+获取:6 http://mirrors.sohu.com/ubuntu xenial/main amd64 DEP-11 Metadata [733 kB]
+获取:7 http://mirrors.sohu.com/ubuntu xenial/main DEP-11 64x64 Icons [409 kB]
+获取:8 http://mirrors.sohu.com/ubuntu xenial/restricted amd64 Packages [8,344 B]
+获取:9 http://mirrors.sohu.com/ubuntu xenial/restricted i386 Packages [8,684 B]
+获取:10 http://mirrors.sohu.com/ubuntu xenial/restricted Translation-zh_CN [1,652 B]
+获取:11 http://mirrors.sohu.com/ubuntu xenial/restricted Translation-en [2,908 B]
+获取:12 http://mirrors.sohu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata [186 B]
+获取:13 http://mirrors.sohu.com/ubuntu xenial/universe amd64 Packages [7,532 kB]
+获取:14 http://mirrors.sohu.com/ubuntu xenial/universe i386 Packages [7,512 kB]
+获取:15 http://mirrors.sohu.com/ubuntu xenial/universe Translation-zh_CN [172 kB]
+获取:16 http://mirrors.sohu.com/ubuntu xenial/universe Translation-en [4,354 kB]
+获取:17 http://mirrors.sohu.com/ubuntu xenial/universe amd64 DEP-11 Metadata [3,410 kB]
+获取:18 http://mirrors.sohu.com/ubuntu xenial/universe DEP-11 64x64 Icons [7,448 kB]
+获取:19 http://mirrors.sohu.com/ubuntu xenial/multiverse amd64 Packages [144 kB]
+获取:20 http://mirrors.sohu.com/ubuntu xenial/multiverse i386 Packages [140 kB]
+获取:21 http://mirrors.sohu.com/ubuntu xenial/multiverse Translation-zh_CN [4,984 B]
+获取:22 http://mirrors.sohu.com/ubuntu xenial/multiverse Translation-en [106 kB]
+获取:23 http://mirrors.sohu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata [63.8 kB]
+获取:24 http://mirrors.sohu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons [230 kB]
+已下载 8,385 kB，耗时 15秒 (528 kB/s)                                          
+正在读取软件包列表... 完成
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ vim : 依赖: vim-common (= 2:7.4.1689-3ubuntu1) 但是 2:7.4.1689-3ubuntu1.2 正要被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ vim : 依赖: vim-common (= 2:7.4.1689-3ubuntu1) 但是 2:7.4.1689-3ubuntu1.2 正要被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim-common
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+vim-common 已经是最新版 (2:7.4.1689-3ubuntu1.2)。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+hadoop@zhouwei-Aspire-E5-471G:~$ vim 
+程序 'vim' 已包含在下列软件包中：
+ * vim
+ * vim-gnome
+ * vim-tiny
+ * vim-athena
+ * vim-athena-py2
+ * vim-gnome-py2
+ * vim-gtk
+ * vim-gtk-py2
+ * vim-gtk3
+ * vim-gtk3-py2
+ * vim-nox
+ * vim-nox-py2
+请尝试：sudo apt install <选定的软件包>
+hadoop@zhouwei-Aspire-E5-471G:~$ 
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install vim
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ vim : 依赖: vim-common (= 2:7.4.1689-3ubuntu1) 但是 2:7.4.1689-3ubuntu1.2 正要被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install opens
+opensaml2-schemas                 openssh-client
+opensaml2-tools                   openssh-client-ssh1
+opensc                            openssh-known-hosts
+openscad                          openssh-server
+openscad-dbg                      openssh-sftp-server
+openscad-mcad                     openssl
+openscad-testing                  openssl-blacklist
+openscad-testing-data             openssl-blacklist-extra
+openscenegraph                    openssn
+openscenegraph-doc                openssn-data
+openscenegraph-examples           openssn-dbg
+openscenegraph-plugin-osgearth    openstack
+opensc-pkcs11                     openstack-dashboard
+opense-basic                      openstack-dashboard-ubuntu-theme
+opensesame                        openstack-debian-images
+openshot                          openstack-doc-tools-common
+openshot-doc                      openstack-pkg-tools
+openslide-tools                   openstack-resource-agents
+openslp-doc                       openstereogram
+opensm                            openstreetmap-carto
+opensm-doc                        openstreetmap-carto-common
+opensmtpd                         openstreetmap-client
+opensmtpd-extras                  openstreetmap-map-icons-classic
+--More--^C
+hadoop@zhouwei-Aspire-E5-471G:~$ ^C
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ openssh-server : 依赖: openssh-client (= 1:7.2p2-4)
+                  依赖: openssh-sftp-server 但是它将不会被安装
+                  推荐: ssh-import-id 但是它将不会被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ openssh-server : 依赖: openssh-client (= 1:7.2p2-4)
+                  依赖: openssh-sftp-server 但是它将不会被安装
+                  推荐: ssh-import-id 但是它将不会被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-sftp-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ openssh-sftp-server : 依赖: openssh-client (= 1:7.2p2-4)
+                       推荐: openssh-server 或
+                               ssh-server
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-client
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+openssh-client 已经是最新版 (1:7.2p2-4ubuntu2.1)。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-sftp-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ openssh-sftp-server : 依赖: openssh-client (= 1:7.2p2-4)
+                       推荐: openssh-server 或
+                               ssh-server
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install ssh-server
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+虚拟软件包 ssh-server 由下面的软件包提供：
+  dropbear-bin:i386 2016.72-1
+  lsh-server 2.1-8
+  dropbear-bin 2016.72-1
+  openssh-server:i386 1:7.2p2-4
+  openssh-server 1:7.2p2-4
+请您明确地选择安装其中一个。
+
+E: 软件包 ssh-server 没有可安装候选
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get unstall openssh-client
+E: 无效的操作 unstall
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt unstall
+E: 无效的操作 unstall
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get uninstall 
+E: 无效的操作 uninstall
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get remove openssh-client 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+下列软件包将被【卸载】：
+  openssh-client
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 1 个软件包，有 0 个软件包未被升级。
+解压缩后将会空出 3,784 kB 的空间。
+您希望继续执行吗？ [Y/n] Y
+(正在读取数据库 ... 系统当前共安装有 176660 个文件和目录。)
+正在卸载 openssh-client (1:7.2p2-4ubuntu2.1) ...
+正在处理用于 man-db (2.7.5-1) 的触发器 ...
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-clien(1:7.2p2-4)
+bash: 未预期的符号 `(' 附近有语法错误
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-clien(=1:7.2p2-4)
+bash: 未预期的符号 `(' 附近有语法错误
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-client 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+建议安装：
+  ssh-askpass libpam-ssh keychain monkeysphere
+下列【新】软件包将被安装：
+  openssh-client
+升级了 0 个软件包，新安装了 1 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+需要下载 586 kB 的归档。
+解压缩后会消耗 3,783 kB 的额外空间。
+获取:1 http://mirrors.sohu.com/ubuntu xenial/main amd64 openssh-client amd64 1:7.2p2-4 [586 kB]
+已下载 586 kB，耗时 1秒 (426 kB/s)      
+正在选中未选择的软件包 openssh-client。
+(正在读取数据库 ... 系统当前共安装有 176621 个文件和目录。)
+正准备解包 .../openssh-client_1%3a7.2p2-4_amd64.deb  ...
+正在解包 openssh-client (1:7.2p2-4) ...
+正在处理用于 man-db (2.7.5-1) 的触发器 ...
+正在设置 openssh-client (1:7.2p2-4) ...
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+将会同时安装下列软件：
+  ncurses-term openssh-sftp-server ssh-import-id
+建议安装：
+  ssh-askpass rssh molly-guard monkeysphere
+下列【新】软件包将被安装：
+  ncurses-term openssh-server openssh-sftp-server ssh-import-id
+升级了 0 个软件包，新安装了 4 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+需要下载 636 kB 的归档。
+解压缩后会消耗 5,145 kB 的额外空间。
+您希望继续执行吗？ [Y/n] y
+获取:1 http://mirrors.sohu.com/ubuntu xenial/main amd64 ncurses-term all 6.0+20160213-1ubuntu1 [249 kB]
+获取:2 http://mirrors.sohu.com/ubuntu xenial/main amd64 openssh-sftp-server amd64 1:7.2p2-4 [38.7 kB]
+获取:3 http://mirrors.sohu.com/ubuntu xenial/main amd64 openssh-server amd64 1:7.2p2-4 [338 kB]
+获取:4 http://mirrors.sohu.com/ubuntu xenial/main amd64 ssh-import-id all 5.5-0ubuntu1 [10.2 kB]
+已下载 636 kB，耗时 1秒 (600 kB/s)       
+正在预设定软件包 ...
+正在选中未选择的软件包 ncurses-term。
+(正在读取数据库 ... 系统当前共安装有 176661 个文件和目录。)
+正准备解包 .../ncurses-term_6.0+20160213-1ubuntu1_all.deb  ...
+正在解包 ncurses-term (6.0+20160213-1ubuntu1) ...
+正在选中未选择的软件包 openssh-sftp-server。
+正准备解包 .../openssh-sftp-server_1%3a7.2p2-4_amd64.deb  ...
+正在解包 openssh-sftp-server (1:7.2p2-4) ...
+正在选中未选择的软件包 openssh-server。
+正准备解包 .../openssh-server_1%3a7.2p2-4_amd64.deb  ...
+正在解包 openssh-server (1:7.2p2-4) ...
+正在选中未选择的软件包 ssh-import-id。
+正准备解包 .../ssh-import-id_5.5-0ubuntu1_all.deb  ...
+正在解包 ssh-import-id (5.5-0ubuntu1) ...
+正在处理用于 man-db (2.7.5-1) 的触发器 ...
+正在处理用于 systemd (229-4ubuntu16) 的触发器 ...
+正在处理用于 ureadahead (0.100.0-19) 的触发器 ...
+ureadahead will be reprofiled on next reboot
+正在处理用于 ufw (0.35-0ubuntu2) 的触发器 ...
+正在设置 ncurses-term (6.0+20160213-1ubuntu1) ...
+正在设置 openssh-sftp-server (1:7.2p2-4) ...
+正在设置 openssh-server (1:7.2p2-4) ...
+Creating SSH2 RSA key; this may take some time ...
+2048 SHA256:zDMrDP8/bCdsPKwgTQgpc3AZhDFUjk85MbXwIDyqRRo root@zhouwei-Aspire-E5-471G (RSA)
+Creating SSH2 DSA key; this may take some time ...
+1024 SHA256:KbgajJtMBaIaQhCoXAueamqZmhj5zAnKFRXJv/D2V6Y root@zhouwei-Aspire-E5-471G (DSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:mLnPk9At77S9shA/pMOQHuE7eBLMiwuCRYL6FJWGa0w root@zhouwei-Aspire-E5-471G (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:k/wM3mLpxKazhAcJ3ycgadEZeenJS8CxKKEV/SqX0UE root@zhouwei-Aspire-E5-471G (ED25519)
+正在设置 ssh-import-id (5.5-0ubuntu1) ...
+正在处理用于 systemd (229-4ubuntu16) 的触发器 ...
+正在处理用于 ureadahead (0.100.0-19) 的触发器 ...
+正在处理用于 ufw (0.35-0ubuntu2) 的触发器 ...
+hadoop@zhouwei-Aspire-E5-471G:~$ ssh locahost
+ssh: Could not resolve hostname locahost: Name or service not known
+hadoop@zhouwei-Aspire-E5-471G:~$ ssh locahost
+ssh: Could not resolve hostname locahost: Name or service not known
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+openssh-server 已经是最新版 (1:7.2p2-4)。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-client 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+openssh-client 已经是最新版 (1:7.2p2-4)。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo apt-get install openssh-sftp-server 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+openssh-sftp-server 已经是最新版 (1:7.2p2-4)。
+openssh-sftp-server 已设置为手动安装。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+hadoop@zhouwei-Aspire-E5-471G:~$ ^C
+hadoop@zhouwei-Aspire-E5-471G:~$ ^C
+hadoop@zhouwei-Aspire-E5-471G:~$ ^C
+hadoop@zhouwei-Aspire-E5-471G:~$ ^C
+hadoop@zhouwei-Aspire-E5-471G:~$ ssh localhost 
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ECDSA key fingerprint is SHA256:mLnPk9At77S9shA/pMOQHuE7eBLMiwuCRYL6FJWGa0w.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'localhost' (ECDSA) to the list of known hosts.
+hadoop@localhost's password: 
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.8.0-36-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 个可升级软件包。
+0 个安全更新。
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+hadoop@zhouwei-Aspire-E5-471G:~$ exit
+注销
+Connection to localhost closed.
+hadoop@zhouwei-Aspire-E5-471G:~$ cd ~/.ssh/
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ ssh-keygen -t -rsa
+unknown key type -rsa
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ cat ./id_rsa.pub >> ./authorized_keys
+cat: ./id_rsa.pub: 没有那个文件或目录
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ ssh-keygen -t -rsa
+unknown key type -rsa
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ 
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/hadoop/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/hadoop/.ssh/id_rsa.
+Your public key has been saved in /home/hadoop/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:rdV+qeMSP4+3Lv4DQsstH/kZ3tWlhgh1EXZNzXEHz4g hadoop@zhouwei-Aspire-E5-471G
+The key's randomart image is:
++---[RSA 2048]----+
+|            +oo**|
+|          ...o +*|
+|         . .E . o|
+|        ....    .|
+|        S+o+.o .o|
+|         oB.* +.o|
+|        .  *.*o+.|
+|          . *+* .|
+|           +=O=o |
++----[SHA256]-----+
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ 
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ 
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ 
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ 
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ 
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ cat ./id_rsa.pub >> ./authorized_keys
+hadoop@zhouwei-Aspire-E5-471G:~/.ssh$ ssh localhost 
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.8.0-36-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+0 个可升级软件包。
+0 个安全更新。
+
+Last login: Mon Jun 26 22:46:25 2017 from 127.0.0.1
+hadoop@zhouwei-Aspire-E5-471G:~$ sudo mkdir /usr/lib/jvm
+[sudo] hadoop 的密码： 
+hadoop@zhouwei-Aspire-E5-471G:~$ ls
+examples.desktop  公共的  模板  视频  图片  文档  下载  音乐  桌面
+hadoop@zhouwei-Aspire-E5-471G:~$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/home$ ls
+hadoop  lost+found  zhouwei
+hadoop@zhouwei-Aspire-E5-471G:/home$ cd zhouwei/
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei$ ls
+examples.desktop  myfile  公共的  模板  视频  图片  文档  下载  音乐  桌面
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei$ cd myfile/
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei/myfile$ ls
+hadoop-2.7.3-src.tar.gz  hadoop-2.7.3.tar.gz  jdk-7u25-linux-x64.tar.gz
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei/myfile$ sudo cp jdk-7u25-linux-x64.tar.gz ~/usr/lib/jvm
+cp: 无法创建普通文件'/home/hadoop/usr/lib/jvm': 没有那个文件或目录
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei/myfile$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei$ cd..
+cd..：未找到命令
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei$ cd..
+cd..：未找到命令
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei$ ls
+examples.desktop  myfile  公共的  模板  视频  图片  文档  下载  音乐  桌面
+hadoop@zhouwei-Aspire-E5-471G:/home/zhouwei$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/home$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/$ ls
+bin    dev   initrd.img  lost+found  opt   run   srv  usr
+boot   etc   lib         media       proc  sbin  sys  var
+cdrom  home  lib64       mnt         root  snap  tmp  vmlinuz
+hadoop@zhouwei-Aspire-E5-471G:/$ sudo cp ./home/zhouwei/myfile/jdk-7u25-linux-x64.tar.gz /usr/lib/jvm
+hadoop@zhouwei-Aspire-E5-471G:/$ sudo cp ./home/zhouwei/myfile/jdk-7u25-linux-x64.tar.gz /usr/lib/jvm^C
+hadoop@zhouwei-Aspire-E5-471G:/$ ^C
+hadoop@zhouwei-Aspire-E5-471G:/$ ^C
+hadoop@zhouwei-Aspire-E5-471G:/$ 
+hadoop@zhouwei-Aspire-E5-471G:/$ ./usr/lib/
+-bash: ./usr/lib/: 是一个目录
+hadoop@zhouwei-Aspire-E5-471G:/$ /usr/lib/jvm/
+-bash: /usr/lib/jvm/: 是一个目录
+hadoop@zhouwei-Aspire-E5-471G:/$ ls
+bin    dev   initrd.img  lost+found  opt   run   srv  usr
+boot   etc   lib         media       proc  sbin  sys  var
+cdrom  home  lib64       mnt         root  snap  tmp  vmlinuz
+hadoop@zhouwei-Aspire-E5-471G:/$ cd usr/
+hadoop@zhouwei-Aspire-E5-471G:/usr$ ls
+bin  games  include  lib  local  locale  sbin  share  src
+hadoop@zhouwei-Aspire-E5-471G:/usr$ cd bin/
+hadoop@zhouwei-Aspire-E5-471G:/usr/bin$ ls
+[                                   nsupdate
+2to3                                ntfsdecrypt
+2to3-2.7                            numfmt
+2to3-3.5                            nvidia-detector
+411toppm                            oakdecode
+a11y-profile-manager-indicator      obexctl
+aa-enabled                          objcopy
+aconnect                            objdump
+acpi_listen                         oclock
+activity-log-manager                od
+add-apt-repository                  on_ac_power
+addpart                             onboard
+addr2line                           onboard-settings
+alsabat                             online-accounts-preferences
+alsaloop                            openssl
+alsamixer                           opldecode
+alsatplg                            orca
+alsaucm                             orca-dm-wrapper
+amidi                               os-prober
+amixer                              p11-kit
+amuFormat.sh                        pacat
+animate                             pacmd
+animate-im6                         pactl
+anytopnm                            padsp
+apg                                 pager
+apgbfm                              painter
+aplay                               palmtopnm
+aplaymidi                           pamcut
+apport-bug                          pamdeinterlace
+apport-cli                          pamdice
+apport-collect                      pamfile
+apport-unpack                       pamoil
+appres                              pamon
+appstreamcli                        pamstack
+apropos                             pamstretch
+apt                                 pamstretch-gen
+apt-add-repository                  paperconf
+apt-cache                           paplay
+apt-cdrom                           parec
+apt-config                          parecord
+aptdcon                             parsechangelog
+apt-extracttemplates                partx
+apt-ftparchive                      passwd
+apt-get                             paste
+apt-key                             pasuspender
+apt-mark                            patch
+apt-sortpkgs                        pathchk
+apturl                              pax11publish
+apturl-gtk                          pbmclean
+ar                                  pbmlife
+arch                                pbmmake
+arecord                             pbmmask
+arecordmidi                         pbmpage
+arm2hpdl                            pbmpscale
+arping                              pbmreduce
+as                                  pbmtext
+asciitopgm                          pbmtextps
+aseqdump                            pbmto10x
+aseqnet                             pbmtoascii
+aspell                              pbmtoatk
+aspell-import                       pbmtobbnbg
+assistant                           pbmtocmuwm
+atktopbm                            pbmtoepsi
+atobm                               pbmtoepson
+avahi-browse                        pbmtog3
+avahi-browse-domains                pbmtogem
+avahi-publish                       pbmtogo
+avahi-publish-address               pbmtoicon
+avahi-publish-service               pbmtolj
+avahi-resolve                       pbmtomacp
+avahi-resolve-address               pbmtomda
+avahi-resolve-host-name             pbmtomgr
+avahi-set-host-name                 pbmtonokia
+awk                                 pbmtopgm
+baobab                              pbmtopi3
+base32                              pbmtoplot
+base64                              pbmtoppa
+basename                            pbmtopsg3
+bashbug                             pbmtoptx
+bc                                  pbmtowbmp
+bccmd                               pbmtox10bm
+bdftopcf                            pbmtoxbm
+bdftruncate                         pbmtoybm
+bioradtopgm                         pbmtozinc
+bitmap                              pbmupc
+bluemoon                            pcimodules
+bluetoothctl                        pcxtoppm
+bluetooth-sendto                    pdb
+bluetooth-wizard                    pdb2.7
+bmptopnm                            pdb3
+bmptoppm                            pdb3.5
+bmtoa                               pdf2dsc
+bootctl                             pdf2ps
+brltty-ctb                          pdfdetach
+brltty-trtxt                        pdffonts
+brltty-ttb                          pdfimages
+broadwayd                           pdfinfo
+browse                              pdfseparate
+brushtopbm                          pdftocairo
+bsd-from                            pdftohtml
+bsd-write                           pdftoppm
+btattach                            pdftops
+btmgmt                              pdftotext
+btmon                               pdfunite
+busctl                              peekfd
+c++                                 perl
+c2ph                                perl5.22.1
+c89                                 perl5.22-x86_64-linux-gnu
+c89-gcc                             perlbug
+c99                                 perldoc
+c99-gcc                             perlivp
+cal                                 perlthanks
+calendar                            pf2afm
+calibrate_ppa                       pfbtopfa
+canberra-gtk-play                   pftp
+cancel                              pg
+captoinfo                           pgmbentley
+catchsegv                           pgmcrater
+catman                              pgmedge
+cautious-launcher                   pgmenhance
+cc                                  pgmhist
+cd-create-profile                   pgmkernel
+cd-fix-profile                      pgmnoise
+cd-iccdump                          pgmnorm
+cd-it8                              pgmoil
+c++filt                             pgmramp
+chacl                               pgmslice
+chage                               pgmtexture
+chardet3                            pgmtofs
+chardetect3                         pgmtolispm
+charmap                             pgmtopbm
+chattr                              pgmtoppm
+chcon                               pgrep
+check-language-support              pi1toppm
+cheese                              pi3topbm
+chfn                                pic
+chrt                                pico
+chsh                                piconv
+ciptool                             pilconvert
+ckbcomp                             pildriver
+cksum                               pilfile
+clear                               pilfont
+clear_console                       pilprint
+cmp                                 pinentry
+cmuwmtopbm                          pinentry-curses
+codepage                            pinentry-gnome3
+col                                 pinentry-x11
+colcrt                              pinky
+colormgr                            pixeltool
+colrm                               pjtoppm
+column                              pkaction
+combinediff                         pkcheck
+comm                                pkexec
+compare                             pkg-config
+compare-im6                         pkill
+compiz                              pkttyagent
+compiz-decorator                    pl2pm
+compose                             plainbox-qml-shell
+composite                           plainbox-trusted-launcher-1
+composite-im6                       player
+conjure                             pldd
+conjure-im6                         plog
+convert                             pmap
+convert-im6                         pm-is-supported
+corelist                            pngtopnm
+cpan                                pnm2ppa
+cpan5.22-x86_64-linux-gnu           pnmalias
+cpp                                 pnmarith
+cpp-5                               pnmcat
+crc32                               pnmcolormap
+createfontdatachunk                 pnmcomp
+credentials-preferences             pnmconvol
+c_rehash                            pnmcrop
+crontab                             pnmcut
+csplit                              pnmdepth
+ctstat                              pnmenlarge
+cups-calibrate                      pnmfile
+cupstestdsc                         pnmflip
+cupstestppd                         pnmgamma
+cut                                 pnmhisteq
+cvt                                 pnmhistmap
+dbus-cleanup-sockets                pnmindex
+dbus-daemon                         pnminterp
+dbus-launch                         pnminterp-gen
+dbus-monitor                        pnminvert
+dbus-run-session                    pnmmargin
+dbus-send                           pnmmontage
+dbus-update-activation-environment  pnmnlfilt
+dbus-uuidgen                        pnmnoraw
+dc                                  pnmnorm
+dconf                               pnmpad
+deallocvt                           pnmpaste
+debconf                             pnmpsnr
+debconf-apt-progress                pnmquant
+debconf-communicate                 pnmremap
+debconf-copydb                      pnmrotate
+debconf-escape                      pnmscale
+debconf-set-selections              pnmscalefixed
+debconf-show                        pnmshear
+deb-systemd-helper                  pnmsmooth
+deb-systemd-invoke                  pnmsplit
+dehtmldiff                          pnmtile
+deja-dup                            pnmtoddif
+deja-dup-preferences                pnmtofiasco
+delpart                             pnmtofits
+designer                            pnmtojpeg
+desktop-file-edit                   pnmtopalm
+desktop-file-install                pnmtoplainpnm
+desktop-file-validate               pnmtopng
+devdump                             pnmtops
+dfu-tool                            pnmtorast
+dh_bash-completion                  pnmtorle
+dh_installxmlcatalogs               pnmtosgi
+dh_pypy                             pnmtosir
+dh_python2                          pnmtotiff
+dh_python3                          pnmtotiffcmyk
+diff                                pnmtoxwd
+diff3                               pod2html
+diffstat                            pod2man
+dig                                 pod2text
+dircolors                           pod2usage
+dirmngr                             podchecker
+dirmngr-client                      podselect
+dirname                             poff
+dirsplit                            pon
+display                             POST
+display-im6                         ppdc
+dm-tool                             ppdhtml
+do-release-upgrade                  ppdi
+dpkg                                ppdmerge
+dpkg-architecture                   ppdpo
+dpkg-buildflags                     pphs
+dpkg-buildpackage                   ppm3d
+dpkg-checkbuilddeps                 ppmbrighten
+dpkg-deb                            ppmchange
+dpkg-distaddfile                    ppmcie
+dpkg-divert                         ppmcolormask
+dpkg-genchanges                     ppmcolors
+dpkg-gencontrol                     ppmdim
+dpkg-gensymbols                     ppmdist
+dpkg-log-summary                    ppmdither
+dpkg-maintscript-helper             ppmfade
+dpkg-mergechangelogs                ppmflash
+dpkg-name                           ppmforge
+dpkg-parsechangelog                 ppmhist
+dpkg-query                          ppmlabel
+dpkg-scanpackages                   ppmmake
+dpkg-scansources                    ppmmix
+dpkg-shlibdeps                      ppmnorm
+dpkg-source                         ppmntsc
+dpkg-split                          ppmpat
+dpkg-statoverride                   ppmquant
+dpkg-trigger                        ppmquantall
+dpkg-vendor                         ppmqvga
+dri3info                            ppmrainbow
+du                                  ppmrelief
+dumpkeys                            ppmshadow
+dvipdf                              ppmshift
+dwp                                 ppmspread
+edit                                ppmtoacad
+editdiff                            ppmtobmp
+editor                              ppmtoeyuv
+editres                             ppmtogif
+eject                               ppmtoicr
+elfedit                             ppmtoilbm
+enc2xs                              ppmtojpeg
+encguess                            ppmtoleaf
+enchant                             ppmtolj
+enchant-lsmod                       ppmtomap
+enhancer                            ppmtomitsu
+env                                 ppmtompeg
+envsubst                            ppmtoneo
+eog                                 ppmtopcx
+eps2eps                             ppmtopgm
+eqn                                 ppmtopi1
+esc-m                               ppmtopict
+evince                              ppmtopj
+evince-previewer                    ppmtopuzz
+evince-thumbnailer                  ppmtorgb3
+ex                                  ppmtosixel
+expand                              ppmtotga
+expiry                              ppmtouil
+explode                             ppmtowinicon
+expr                                ppmtoxpm
+eyuvtoppm                           ppmtoyuv
+factor                              ppmtoyuvsplit
+faillog                             ppmtv
+faked-sysv                          pr
+faked-tcp                           precat
+fakeroot                            preconv
+fakeroot-sysv                       prename
+fakeroot-tcp                        presage_demo
+fallocate                           presage_demo_text
+fc-cache                            presage_simulator
+fc-cat                              preunzip
+fcitx                               prezip
+fcitx-autostart                     prezip-bin
+fcitx-config-gtk3                   print
+fcitx-configtool                    printafm
+fcitx-dbus-watcher                  printenv
+fcitx-diagnose                      printerbanner
+fcitx-qimpanel                      printer-profile
+fcitx-qimpanel-configtool           printf
+fcitx-remote                        prlimit
+fcitx-skin-installer                prove
+fc-list                             prtstat
+fc-match                            ps2ascii
+fc-pattern                          ps2epsi
+fc-query                            ps2pdf
+fc-scan                             ps2pdf12
+fc-validate                         ps2pdf13
+fiascotopnm                         ps2pdf14
+file                                ps2pdfwr
+file2brl                            ps2ps
+file-rename                         ps2ps2
+file-roller                         ps2txt
+filterdiff                          psfaddtable
+find                                psfgettable
+firefox                             psfstriptable
+fitstopnm                           psfxtable
+fixcvsdiff                          psicc
+fix-qdf                             psidtopgm
+flipdiff                            pstopnm
+flock                               pstree
+fmt                                 pstree.x11
+fold                                pstruct
+font2c                              ptar
+fonttosfnt                          ptardiff
+foo2hbpl2                           ptargrep
+foo2hbpl2-wrapper                   ptx
+foo2hiperc                          pulseaudio
+foo2hiperc-wrapper                  pwdx
+foo2hp                              py3clean
+foo2hp2600-wrapper                  py3compile
+foo2lava                            py3versions
+foo2lava-wrapper                    pybuild
+foo2oak                             pyclean
+foo2oak-wrapper                     pycompile
+foo2qpdl                            pydoc
+foo2qpdl-wrapper                    pydoc2.7
+foo2slx                             pydoc3
+foo2slx-wrapper                     pydoc3.5
+foo2xqx                             pygettext
+foo2xqx-wrapper                     pygettext2.7
+foo2zjs                             pygettext3
+foo2zjs-icc2ps                      pygettext3.5
+foo2zjs-pstops                      python
+foo2zjs-wrapper                     python2
+foomatic-rip                        python2.7
+free                                python3
+from                                python3.5
+fstopgm                             python3.5m
+ftp                                 python3m
+funzip                              pyversions
+fwupdate                            qcollectiongenerator
+fwupdmgr                            qdbus
+g++                                 qdbuscpp2xml
+g3topbm                             qdbusviewer
+g++-5                               qdbusxml2cpp
+gamma4scanimage                     qdoc
+gapplication                        qdoc3
+gatttool                            qglinfo
+gcalccmd                            qhelpconverter
+gcc                                 qhelpgenerator
+gcc-5                               qlalr
+gcc-ar                              qmake
+gcc-ar-5                            qml
+gcc-nm                              qml1plugindump
+gcc-nm-5                            qmlbundle
+gcc-ranlib                          qmleasing
+gcc-ranlib-5                        qmlimportscanner
+gconf-merge-tree                    qmllint
+gconftool                           qmlmin
+gconftool-2                         qmlplugindump
+gcore                               qmlprofiler
+gcov                                qmlscene
+gcov-5                              qmltestrunner
+gcov-tool                           qmlviewer
+gcov-tool-5                         qpdf
+gcr-viewer                          qpdldecode
+gdb                                 qrttoppm
+gdb-add-index                       qtchooser
+gdbserver                           qtconfig
+gdbtui                              qtdiag
+gdbus                               qtpaths
+gdialog                             quirks-handler
+gedit                               ranlib
+gemtopbm                            rasttopnm
+gemtopnm                            rawtopgm
+gencat                              rawtoppm
+genisoimage                         rcc
+geqn                                rcp
+GET                                 rctest
+getconf                             readelf
+geteltorito                         realpath
+getent                              recode-sr-latin
+getfacl                             recountdiff
+getkeycodes                         rediff
+getopt                              remmina
+gettext                             rename
+gettextize                          rename.ul
+gettext.sh                          rendercheck
+ghostscript                         renice
+gifmaker                            reset
+giftopnm                            resize
+ginstall-info                       resizecons
+gio-querymodules                    resizepart
+gipddecode                          rev
+gkbd-keyboard-display               rfcomm
+glib-compile-resources              rgb3toppm
+glib-compile-schemas                rgrep
+gnome-calculator                    rhythmbox
+gnome-calendar                      rhythmbox-client
+gnome-character-map                 rletopnm
+gnome-disk-image-mounter            rlogin
+gnome-disks                         routef
+gnome-file-share-properties         routel
+gnome-font-viewer                   rpcgen
+gnome-help                          rsh
+gnome-keyring                       rstart
+gnome-keyring-3                     rstartd
+gnome-keyring-daemon                rsync
+gnome-language-selector             rtstat
+gnome-power-statistics              runcon
+gnome-screensaver                   run-mailcap
+gnome-screensaver-command           run-with-aspell
+gnome-screenshot                    rview
+gnome-session                       sane-find-scanner
+gnome-session-inhibit               savelog
+gnome-session-properties            sbattach
+gnome-session-quit                  sbigtopgm
+gnome-software                      sbkeysync
+gnome-system-log                    sbsiglist
+gnome-system-log-pkexec             sbsign
+gnome-system-monitor                sbvarsign
+gnome-terminal                      sbverify
+gnome-terminal.real                 scanimage
+gnome-terminal.wrapper              scp
+gnome-text-editor                   scp-dbus-service
+gnome-thumbnail-font                screendump
+gnome-www-browser                   script
+gold                                scriptreplay
+gouldtoppm                          sdiff
+gpasswd                             sdptool
+gpg                                 seahorse
+gpg2                                see
+gpg-agent                           select-default-iwrap
+gpgconf                             select-editor
+gpg-connect-agent                   sensible-browser
+gpgparsemail                        sensible-editor
+gpgsplit                            sensible-pager
+gpgv                                seq
+gpg-zip                             session-installer
+gpic                                session-migration
+gprof                               sessreg
+gpu-manager                         setarch
+grepdiff                            setfacl
+gresource                           setkeycodes
+groff                               setleds
+grog                                setlogcons
+grops                               setmetamode
+grotty                              setpci
+groups                              setsid
+grub-editenv                        setterm
+grub-file                           setxkbmap
+grub-fstest                         sftp
+grub-glue-efi                       sg
+grub-kbdcomp                        sgitopnm
+grub-menulst2cfg                    sha1sum
+grub-mkfont                         sha224sum
+grub-mkimage                        sha256sum
+grub-mklayout                       sha384sum
+grub-mknetdir                       sha512sum
+grub-mkpasswd-pbkdf2                shasum
+grub-mkrelpath                      shotwell
+grub-mkrescue                       showconsolefont
+grub-mkstandalone                   showkey
+grub-mount                          showrgb
+grub-ntldr-img                      shred
+grub-render-label                   shuf
+grub-script-check                   signond
+grub-syslinux2cfg                   signonpluginprocess
+gs                                  signon-ui
+gsbj                                simple-scan
+gsdj                                sirtopnm
+gsdj500                             size
+gsettings                           skill
+gsettings-data-convert              slabtop
+gsettings-schema-convert            sldtoppm
+gslj                                slogin
+gslp                                slxdecode
+gsnd                                smproxy
+gst-device-monitor-1.0              snap
+gst-discoverer-1.0                  snapctl
+gst-inspect-1.0                     snice
+gst-install                         soelim
+gst-launch-1.0                      soffice
+gst-play-1.0                        software-properties-gtk
+gstreamer-codec-install             sort
+gst-typefind-1.0                    sotruss
+gtbl                                spctoppm
+gtf                                 spd-conf
+gtk-builder-tool                    spd-say
+gtk-launch                          speaker-test
+gtk-update-icon-cache               speech-dispatcher
+gtk-update-icon-cache-3.0           spellintian
+gtk-window-decorator                splain
+gucharmap                           split
+gvfs-cat                            splitdiff
+gvfs-copy                           splitfont
+gvfs-info                           sprof
+gvfs-less                           sputoppm
+gvfs-ls                             ssh
+gvfs-mime                           ssh-add
+gvfs-mkdir                          ssh-agent
+gvfs-monitor-dir                    ssh-argv0
+gvfs-monitor-file                   ssh-copy-id
+gvfs-mount                          ssh-import-id
+gvfs-move                           ssh-import-id-gh
+gvfs-open                           ssh-import-id-lp
+gvfs-rename                         ssh-keygen
+gvfs-rm                             ssh-keyscan
+gvfs-save                           st4topgm
+gvfs-set-attribute                  start-pulseaudio-x11
+gvfs-trash                          startx
+gvfs-tree                           stat
+h2ph                                stdbuf
+h2xs                                strace
+hardening-check                     stream
+hbpldecode                          stream-im6
+hciattach                           strings
+hcitool                             strip
+hd                                  sudo
+head                                sudoedit
+HEAD                                sudoreplay
+helpztags                           sum
+hex2hcd                             symcryptrun
+hexdump                             synclient
+hipercdecode                        syndaemon
+hipstopgm                           syslinux
+host                                syslinux-legacy
+hostid                              system-config-printer
+hostnamectl                         system-config-printer-applet
+hp-align                            systemd-analyze
+hp-check                            systemd-cat
+hp-clean                            systemd-cgls
+hp-colorcal                         systemd-cgtop
+hp-config_usb_printer               systemd-delta
+hp-doctor                           systemd-detect-virt
+hp-firmware                         systemd-path
+hp-info                             systemd-resolve
+hp-levels                           systemd-run
+hp-logcapture                       systemd-stdio-bridge
+hp-makeuri                          t1ascii
+hp-pkservice                        t1asm
+hp-plugin                           t1binary
+hp-plugin-ubuntu                    t1disasm
+hp-probe                            t1mac
+hp-query                            t1unmac
+hp-scan                             tabs
+hp-setup                            tac
+hp-testpage                         tail
+hp-timedate                         taskset
+i386                                tbl
+i686-linux-gnu-pkg-config           tclsh
+ibus                                tclsh8.6
+ibus-daemon                         tee
+ibus-setup                          telnet
+ibus-table-createdb                 telnet.netkit
+iceauth                             test
+ico                                 text2ngram
+icontopbm                           tgatoppm
+iconv                               tgz
+id                                  thinkjettopbm
+identify                            thresholder
+identify-im6                        thunderbird
+iecset                              tic
+igt_stats                           tifftopnm
+ijs_pxljr                           tificc
+ilbmtoppm                           time
+imagetops                           timedatectl
+im-config                           timeout
+imgtoppm                            tload
+im-launch                           toe
+import                              top
+import-im6                          toshset
+info                                totem
+infobrowser                         totem-audio-preview
+infocmp                             totem-video-thumbnailer
+infotocap                           touch
+init-checkconf                      tput
+initctl2dot                         tr
+inputattach                         tracepath
+install                             tracepath6
+install-info                        traceroute6
+install-printerdriver               traceroute6.iputils
+instmodsh                           transicc
+intel_aubdump                       transmission-gtk
+intel_audio_dump                    transset
+intel_backlight                     troff
+intel_bios_dumper                   truncate
+intel_bios_reader                   trust
+intel_display_crc                   tset
+intel_display_poller                tsort
+intel_dump_decode                   ttfread
+intel_error_decode                  tty
+intel_firmware_decode               tzselect
+intel_forcewaked                    ubuntu-bug
+intel_framebuffer_dump              ubuntu-core-launcher
+intel-gen4asm                       ubuntu-drivers
+intel-gen4disasm                    ubuntu-software
+intel_gpu_abrt                      ubuntu-support-status
+intel_gpu_frequency                 ubuntu-webapps-update-index
+intel-gpu-overlay                   ucf
+intel_gpu_time                      ucfq
+intel_gpu_top                       ucfr
+intel_gtt                           ucs2any
+intel_infoframes                    udisksctl
+intel_l3_parity                     uic
+intel_lid                           uic3
+intel_opregion_decode               ul
+intel_panel_fitter                  umax_pp
+intel_perf_counters                 unattended-upgrade
+intel_reg                           unattended-upgrades
+intel_reg_checker                   unexpand
+intel_residency                     unicode_stop
+intel_sprite_on                     uniq
+intel_stepping                      unity
+intel-virtual-output                unity-control-center
+intel_watermark                     unity-scope-loader
+interdiff                           unity-settings-daemon
+ionice                              unity-webapps-desktop-file
+ipcmk                               unity-webapps-qml-launcher
+ipcrm                               unity-webapps-runner
+ipcs                                unlink
+ipod-read-sysinfo-extended          unlzma
+ipod-time-sync                      unopkg
+iptables-xml                        unshare
+ischroot                            unsquashfs
+isdv4-serial-debugger               unwrapdiff
+isdv4-serial-inputattach            unxz
+isodump                             unzip
+isoinfo                             unzipsfx
+isovfy                              update-alternatives
+ispell-wrapper                      updatedb
+join                                updatedb.mlocate
+jpegtopnm                           update-desktop-database
+jpgicc                              update-gconf-defaults
+json_pp                             update-manager
+jwt3                                update-mime-database
+kbdinfo                             update-mime-database.real
+kbxutil                             update-notifier
+kerneloops-submit                   upower
+killall                             uptime
+kmodsign                            usb-creator-gtk
+koi8rxterm                          usb-devices
+l2ping                              usbhid-dump
+l2test                              usb_printerid
+last                                users
+lastb                               utmpdump
+lastlog                             uuidgen
+lavadecode                          uxterm
+lcf                                 uz
+lconvert                            vi
+ld                                  view
+ld.bfd                              viewer
+ldd                                 viewres
+ld.gold                             vim.tiny
+leaftoppm                           vino-passwd
+less                                vino-preferences
+lessecho                            vmstat
+lessfile                            vmwarectrl
+lesskey                             volname
+lesspipe                            vstp
+lexgrog                             w
+libnetcfg                           wall
+libreoffice                         watch
+libwacom-list-local-devices         watchgnupg
+line                                wbmptopbm
+linguist                            wc
+link                                webapp-container
+linkicc                             webapp-container-hook
+lintian                             webbrowser-app
+lintian-info                        wftopfa
+lintian-lab-tool                    wget
+linux32                             whatis
+linux64                             whereis
+linux-boot-prober                   which
+linux-version                       who
+lispmtopgm                          whoami
+listres                             whoopsie
+lnstat                              whoopsie-preferences
+loadkeys                            winicontoppm
+loadunimap                          wish
+localc                              wish8.6
+locale                              word-list-compress
+localectl                           wpa_passphrase
+localedef                           w.procps
+locate                              write
+lodraw                              X
+loffice                             X11
+lofromtemplate                      x11perf
+logger                              x11perfcomp
+logname                             x86_64
+loimpress                           x86_64-linux-gnu-addr2line
+lomath                              x86_64-linux-gnu-ar
+look                                x86_64-linux-gnu-as
+lorder                              x86_64-linux-gnu-c++filt
+loweb                               x86_64-linux-gnu-cpp
+lowriter                            x86_64-linux-gnu-cpp-5
+lp                                  x86_64-linux-gnu-dwp
+lpoptions                           x86_64-linux-gnu-elfedit
+lpq                                 x86_64-linux-gnu-g++
+lpr                                 x86_64-linux-gnu-g++-5
+lprm                                x86_64-linux-gnu-gcc
+lp_solve                            x86_64-linux-gnu-gcc-5
+lpstat                              x86_64-linux-gnu-gcc-ar
+lrelease                            x86_64-linux-gnu-gcc-ar-5
+lsattr                              x86_64-linux-gnu-gcc-nm
+lsb_release                         x86_64-linux-gnu-gcc-nm-5
+lscpu                               x86_64-linux-gnu-gcc-ranlib
+lsdiff                              x86_64-linux-gnu-gcc-ranlib-5
+lshw                                x86_64-linux-gnu-gcov
+lsinitramfs                         x86_64-linux-gnu-gcov-5
+lsipc                               x86_64-linux-gnu-gcov-tool
+lslocks                             x86_64-linux-gnu-gcov-tool-5
+lslogins                            x86_64-linux-gnu-gprof
+lsof                                x86_64-linux-gnu-ld
+lspci                               x86_64-linux-gnu-ld.bfd
+lspgpot                             x86_64-linux-gnu-ld.gold
+lsusb                               x86_64-linux-gnu-nm
+ltrace                              x86_64-linux-gnu-objcopy
+luit                                x86_64-linux-gnu-objdump
+lupdate                             x86_64-linux-gnu-pkg-config
+lwp-download                        x86_64-linux-gnu-ranlib
+lwp-dump                            x86_64-linux-gnu-readelf
+lwp-mirror                          x86_64-linux-gnu-size
+lwp-request                         x86_64-linux-gnu-strings
+lxterm                              x86_64-linux-gnu-strip
+lz                                  x86_64-pc-linux-gnu-pkg-config
+lzcat                               xargs
+lzcmp                               xauth
+lzdiff                              xbiff
+lzegrep                             xbmtopbm
+lzfgrep                             xbrlapi
+lzgrep                              xcalc
+lzless                              xclipboard
+lzma                                xclock
+lzmainfo                            xcmsdb
+lzmore                              xconsole
+macptopbm                           xcursorgen
+make                                xcutsel
+make-first-existing-target          xdg-desktop-icon
+man                                 xdg-desktop-menu
+mandb                               xdg-email
+manpath                             xdg-icon-resource
+mapscrn                             xdg-mime
+mattrib                             xdg-open
+mawk                                xdg-screensaver
+mbadblocks                          xdg-settings
+mcat                                xdg-user-dir
+mcd                                 xdg-user-dirs-gtk-update
+mcheck                              xdg-user-dirs-update
+mclasserase                         xdiagnose
+mcomp                               xdiagnose-pkexec
+mcookie                             xditview
+mcopy                               xdpyinfo
+md5sum                              xdriinfo
+md5sum.textutils                    xedid
+mdatopbm                            xedit
+mdel                                xev
+mdeltree                            xeyes
+mdir                                xfd
+mdu                                 xfontsel
+mesg                                xgamma
+mformat                             xgc
+mgrtopbm                            xgettext
+mimeopen                            xhost
+mimetype                            ximtoppm
+min12xxw                            xinit
+minfo                               xinput
+mkfifo                              xkbbell
+mkfontdir                           xkbcomp
+mkfontscale                         xkbevd
+mkisofs                             xkbprint
+mkmanifest                          xkbvleds
+mk_modmap                           xkbwatch
+mksquashfs                          xkeystone
+mkzftree                            xkill
+mlabel                              xload
+mlocate                             xlogo
+mmcli                               xlsatoms
+mmd                                 xlsclients
+mmount                              xlsfonts
+mmove                               xmag
+moc                                 xman
+mogrify                             xmessage
+mogrify-im6                         xmlpatterns
+montage                             xmlpatternsvalidator
+montage-im6                         xmodmap
+mousetweaks                         xmore
+mpartition                          Xorg
+mrd                                 xpci
+mren                                xpmtoppm
+mscompress                          xprop
+msexpand                            xqxdecode
+msgattrib                           xrandr
+msgcat                              xrandr-tool
+msgcmp                              xrdb
+msgcomm                             xrefresh
+msgconv                             xrotate
+msgen                               x-session-manager
+msgexec                             xset
+msgfilter                           xsetmode
+msgfmt                              xsetpointer
+msggrep                             xsetroot
+msginit                             xsetwacom
+msgmerge                            xsm
+msgunfmt                            xstdcmap
+msguniq                             xsubpp
+mshortname                          xterm
+mshowfat                            x-terminal-emulator
+mtools                              xvidtune
+mtoolstest                          xvinfo
+mtr                                 xvminitoppm
+mtrace                              xwd
+mtvtoppm                            xwdtopnm
+mtype                               xwininfo
+mxtar                               xwud
+mzip                                x-www-browser
+namei                               xxd
+nautilus                            xz
+nautilus-autorun-software           xzcat
+nautilus-connect-server             xzcmp
+nautilus-sendto                     xzdiff
+nawk                                xzegrep
+ncal                                xzfgrep
+neotoppm                            xzgrep
+neqn                                xzless
+netkit-ftp                          xzmore
+newgrp                              ybmtopbm
+ngettext                            yelp
+nice                                yes
+nl                                  yuvsplittoppm
+nm                                  yuvtoppm
+nm-applet                           zdump
+nmcli                               zeisstopnm
+nm-connection-editor                zeitgeist-daemon
+nm-online                           zeitgeist-datahub
+nmtui                               zenity
+nmtui-connect                       zip
+nmtui-edit                          zipcloak
+nmtui-hostname                      zipdetails
+nohup                               zipgrep
+notify-send                         zipinfo
+nproc                               zipnote
+nroff                               zipsplit
+nsenter                             zjsdecode
+nslookup                            zlib-flate
+nstat
+hadoop@zhouwei-Aspire-E5-471G:/usr/bin$ ^C
+hadoop@zhouwei-Aspire-E5-471G:/usr/bin$ ^C
+hadoop@zhouwei-Aspire-E5-471G:/usr/bin$ ^C
+hadoop@zhouwei-Aspire-E5-471G:/usr/bin$ ^C
+hadoop@zhouwei-Aspire-E5-471G:/usr/bin$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/usr$ cd lib/
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib$ cd jvm/
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ ls
+jdk-7u25-linux-x64.tar.gz
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo tar -axvf jdk-7u25-linux-x64.tar.gz  -C 
+tar: 选项需要参数 -- "C"
+Try 'tar --help' or 'tar --usage' for more information.
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo tar -axvf jdk-7u25-linux-x64.tar.gz  
+jdk1.7.0_25/
+jdk1.7.0_25/db/
+jdk1.7.0_25/db/lib/
+jdk1.7.0_25/db/lib/derbyLocale_pl.jar
+jdk1.7.0_25/db/lib/derbyLocale_zh_TW.jar
+jdk1.7.0_25/db/lib/derbyLocale_cs.jar
+jdk1.7.0_25/db/lib/derbyLocale_de_DE.jar
+jdk1.7.0_25/db/lib/derbytools.jar
+jdk1.7.0_25/db/lib/derbyrun.jar
+jdk1.7.0_25/db/lib/derbyLocale_hu.jar
+jdk1.7.0_25/db/lib/derbynet.jar
+jdk1.7.0_25/db/lib/derby.jar
+jdk1.7.0_25/db/lib/derbyLocale_ko_KR.jar
+jdk1.7.0_25/db/lib/derbyLocale_it.jar
+jdk1.7.0_25/db/lib/derbyLocale_fr.jar
+jdk1.7.0_25/db/lib/derbyLocale_ru.jar
+jdk1.7.0_25/db/lib/derbyLocale_pt_BR.jar
+jdk1.7.0_25/db/lib/derby.war
+jdk1.7.0_25/db/lib/derbyLocale_es.jar
+jdk1.7.0_25/db/lib/derbyLocale_ja_JP.jar
+jdk1.7.0_25/db/lib/derbyclient.jar
+jdk1.7.0_25/db/lib/derbyLocale_zh_CN.jar
+jdk1.7.0_25/db/NOTICE
+jdk1.7.0_25/db/bin/
+jdk1.7.0_25/db/bin/setNetworkClientCP
+jdk1.7.0_25/db/bin/sysinfo.bat
+jdk1.7.0_25/db/bin/derby_common.bat
+jdk1.7.0_25/db/bin/dblook
+jdk1.7.0_25/db/bin/stopNetworkServer.bat
+jdk1.7.0_25/db/bin/dblook.bat
+jdk1.7.0_25/db/bin/setEmbeddedCP
+jdk1.7.0_25/db/bin/stopNetworkServer
+jdk1.7.0_25/db/bin/setNetworkServerCP.bat
+jdk1.7.0_25/db/bin/startNetworkServer
+jdk1.7.0_25/db/bin/sysinfo
+jdk1.7.0_25/db/bin/setNetworkServerCP
+jdk1.7.0_25/db/bin/startNetworkServer.bat
+jdk1.7.0_25/db/bin/setNetworkClientCP.bat
+jdk1.7.0_25/db/bin/ij.bat
+jdk1.7.0_25/db/bin/setEmbeddedCP.bat
+jdk1.7.0_25/db/bin/ij
+jdk1.7.0_25/db/bin/NetworkServerControl
+jdk1.7.0_25/db/bin/NetworkServerControl.bat
+jdk1.7.0_25/db/README-JDK.html
+jdk1.7.0_25/db/RELEASE-NOTES.html
+jdk1.7.0_25/db/3RDPARTY
+jdk1.7.0_25/db/LICENSE
+jdk1.7.0_25/lib/
+jdk1.7.0_25/lib/visualvm/
+jdk1.7.0_25/lib/visualvm/visualvm/
+jdk1.7.0_25/lib/visualvm/visualvm/.lastModified
+jdk1.7.0_25/lib/visualvm/visualvm/modules/
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-uisupport.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-application-views.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-tools.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-profiler.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-jvmstat.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-jmx.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-core.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-host-views.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-heapdump.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-attach.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-application.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-modules-appui.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-charts.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-coredump.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-core_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host-views_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-application_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-coredump_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-threaddump_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host-remote_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-profiler_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jmx_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvm_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-profiling_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host-views_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-attach_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jmx_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-profiling_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-profiler_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-heapdump_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/org-netbeans-core-windows_visualvm.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvm_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/org-netbeans-modules-profiler_visualvm.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-charts_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-application_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-uisupport_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-host-remote_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-charts_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/org-netbeans-core_visualvm.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-attach_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-sa_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-heapdump_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-modules-appui_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-sampler_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-api-caching_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-tools_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-application-views_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-uisupport_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-sampler_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvmstat_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-core_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-threaddump_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-coredump_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-tools_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-sa_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-application-views_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-api-caching_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-jvmstat_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/locale/com-sun-tools-visualvm-modules-appui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-jvm.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-sampler.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-host.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-profiling.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-api-caching.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-threaddump.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-host-remote.jar
+jdk1.7.0_25/lib/visualvm/visualvm/modules/com-sun-tools-visualvm-sa.jar
+jdk1.7.0_25/lib/visualvm/visualvm/config/
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-api-visual.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-sampler.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-modules-favorites.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-core.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-profiling.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-profiler.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-openide-options.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-core-io-ui.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-openide-execution.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-modules-options-keymap.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-core-execution.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-host-views.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-charts.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-host-remote.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-host.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-openide-util-enumerations.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-uisupport.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-api-caching.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-jmx.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-attach.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-modules-appui.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-modules-print.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-openide-compat.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-tools.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-modules-spi-actions.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-application-views.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-core-output2.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-application.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/org-netbeans-modules-core-kit.xml_hidden
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-jvmstat.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-sa.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-heapdump.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-coredump.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-jvm.xml
+jdk1.7.0_25/lib/visualvm/visualvm/config/Modules/com-sun-tools-visualvm-threaddump.xml
+jdk1.7.0_25/lib/visualvm/visualvm/core/
+jdk1.7.0_25/lib/visualvm/visualvm/core/com-sun-tools-visualvm-modules-startup.jar
+jdk1.7.0_25/lib/visualvm/visualvm/core/locale/
+jdk1.7.0_25/lib/visualvm/visualvm/core/locale/core_visualvm.jar
+jdk1.7.0_25/lib/visualvm/visualvm/core/locale/com-sun-tools-visualvm-modules-startup_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/visualvm/core/locale/com-sun-tools-visualvm-modules-startup_ja.jar
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-sampler.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-core.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-profiling.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-profiler.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-host-views.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-charts.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-host-remote.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-host.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-uisupport.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-api-caching.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-jmx.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-modules-startup.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-attach.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-modules-appui.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-tools.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-application-views.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-application.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-jvmstat.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-sa.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-heapdump.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-coredump.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-jvm.xml
+jdk1.7.0_25/lib/visualvm/visualvm/update_tracking/com-sun-tools-visualvm-threaddump.xml
+jdk1.7.0_25/lib/visualvm/profiler/
+jdk1.7.0_25/lib/visualvm/profiler/lib/
+jdk1.7.0_25/lib/visualvm/profiler/lib/locale/
+jdk1.7.0_25/lib/visualvm/profiler/lib/locale/jfluid-server_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/lib/locale/jfluid-server_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/jdk16/
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/jdk16/linux-amd64/
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/jdk16/linux-amd64/libprofilerinterface.so
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/jdk15/
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/jdk15/linux-amd64/
+jdk1.7.0_25/lib/visualvm/profiler/lib/deployed/jdk15/linux-amd64/libprofilerinterface.so
+jdk1.7.0_25/lib/visualvm/profiler/lib/jfluid-server-15.jar
+jdk1.7.0_25/lib/visualvm/profiler/lib/jfluid-server.jar
+jdk1.7.0_25/lib/visualvm/profiler/VERSION.txt
+jdk1.7.0_25/lib/visualvm/profiler/.lastModified
+jdk1.7.0_25/lib/visualvm/profiler/modules/
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-utilities.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-lib-profiler-ui.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-selector-ui.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-lib-profiler-charts.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-lib-profiler.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-selector-api_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-api_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-selector-api_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-attach_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-utilities_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-oql_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-selector-ui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-attach_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-api_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-oql_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-heapwalker_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler-charts_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler-common_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler-ui_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler-common_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-heapwalker_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-selector-ui_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler-charts_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-modules-profiler-utilities_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler_ja.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/locale/org-netbeans-lib-profiler-ui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-lib-profiler-common.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-heapwalker.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-oql.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-attach.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-selector-api.jar
+jdk1.7.0_25/lib/visualvm/profiler/modules/org-netbeans-modules-profiler-api.jar
+jdk1.7.0_25/lib/visualvm/profiler/config/
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-heapwalker.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-lib-profiler-ui.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-selector-api.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-lib-profiler-common.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-attach.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-lib-profiler.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-selector-ui.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-lib-profiler-charts.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-api.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-utilities.xml
+jdk1.7.0_25/lib/visualvm/profiler/config/Modules/org-netbeans-modules-profiler-oql.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-heapwalker.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-lib-profiler-ui.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-selector-api.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-lib-profiler-common.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-attach.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-lib-profiler.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-selector-ui.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-lib-profiler-charts.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-api.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-utilities.xml
+jdk1.7.0_25/lib/visualvm/profiler/update_tracking/org-netbeans-modules-profiler-oql.xml
+jdk1.7.0_25/lib/visualvm/platform/
+jdk1.7.0_25/lib/visualvm/platform/lib/
+jdk1.7.0_25/lib/visualvm/platform/lib/org-openide-util.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/org-openide-modules.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/org-openide-util_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/org-openide-util_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/org-openide-util-lookup_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/org-openide-modules_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/boot_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/boot_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/org-openide-util-lookup_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/locale/org-openide-modules_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/org-openide-util-lookup.jar
+jdk1.7.0_25/lib/visualvm/platform/lib/nbexec
+jdk1.7.0_25/lib/visualvm/platform/lib/boot.jar
+jdk1.7.0_25/lib/visualvm/platform/VERSION.txt
+jdk1.7.0_25/lib/visualvm/platform/.lastModified
+jdk1.7.0_25/lib/visualvm/platform/modules/
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core-output2.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core-multiview.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core-windows.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-dialogs.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-autoupdate-ui.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-print.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-util-enumerations.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-spi-quicksearch.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-compat.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-autoupdate-services.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-options.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-sendopts.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core-execution.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-favorites.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-queries.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-core-kit.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-editor-mimelookup.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core-io-ui.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-swing-plaf.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-progress-ui.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-api-progress_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-spi-quicksearch_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-applemenu_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-io-ui_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-editor-mimelookup-impl_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-actions_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-ui_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-awt_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-loaders_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-ui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-windows_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-multiview_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-editor-mimelookup-impl_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-options-api_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-sendopts_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-spi-quicksearch_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-api-visual_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-options_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-autoupdate-services_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-queries_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-swing-outline_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-swing-plaf_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-sendopts_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-keyring-impl_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-actions_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-applemenu_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-spi-actions_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-output2_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-dialogs_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-editor-mimelookup_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-windows_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-swing-plaf_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-swing-tabcontrol_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-io_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-compat_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-execution_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-progress-ui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-util-enumerations_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-text_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-print_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-awt_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-settings_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-javahelp_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-execution_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-keyring-impl_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-windows_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-io_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-masterfs_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-core-kit_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-core-kit_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-io-ui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-api-progress_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-api-visual_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-javahelp_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-spi-actions_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-explorer_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-execution_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-autoupdate-services_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-swing-tabcontrol_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-options-keymap_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-multiview_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-api-annotations-common_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-util-enumerations_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-dialogs_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-api-annotations-common_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-keyring_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-windows_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-loaders_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-queries_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-print_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-progress-ui_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-editor-mimelookup_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-keyring_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-settings_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-output2_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-core-execution_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-text_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-swing-outline_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-favorites_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-compat_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-options-api_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-nodes_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-options_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-explorer_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-openide-nodes_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-options-keymap_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-favorites_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/locale/org-netbeans-modules-masterfs_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-keyring-impl.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-swing-tabcontrol.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/jhall-2.0_05.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/updater.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/locale/
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/locale/updater_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/locale/updater_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/ext/nsProxyAutoConfig.js
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-options-api.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-loaders.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-applemenu.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-actions.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-api-annotations-common.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-masterfs.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-execution.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-api-visual.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-api-progress.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-editor-mimelookup-impl.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-io.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-awt.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-core-ui.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-text.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-spi-actions.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-options-keymap.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-settings.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-javahelp.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-swing-outline.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-windows.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-nodes.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-netbeans-modules-keyring.jar
+jdk1.7.0_25/lib/visualvm/platform/modules/org-openide-explorer.jar
+jdk1.7.0_25/lib/visualvm/platform/config/
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-util.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-explorer.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-netbeans-modules-queries.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-loaders.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-execution.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-nodes.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-modules.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-openide-text.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-netbeans-modules-options-api.xml
+jdk1.7.0_25/lib/visualvm/platform/config/ModuleAutoDeps/org-netbeans-core.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-explorer.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-options-keymap.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-queries.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-loaders.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core-output2.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-spi-actions.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-swing-tabcontrol.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-autoupdate-services.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-autoupdate-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-javahelp.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-actions.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-execution.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-api-visual.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-favorites.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-api-progress.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-swing-outline.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-nodes.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-editor-mimelookup-impl.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-editor-mimelookup.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-awt.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-swing-plaf.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-sendopts.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-masterfs.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-settings.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core-execution.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-util-enumerations.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-print.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core-windows.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-windows.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-text.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-dialogs.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-compat.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-io.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core-io-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-core-kit.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-keyring.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-progress-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-applemenu.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-spi-quicksearch.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-keyring-impl.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-modules-options-api.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-openide-options.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core-multiview.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-core.xml
+jdk1.7.0_25/lib/visualvm/platform/config/Modules/org-netbeans-api-annotations-common.xml
+jdk1.7.0_25/lib/visualvm/platform/core/
+jdk1.7.0_25/lib/visualvm/platform/core/org-openide-filesystems.jar
+jdk1.7.0_25/lib/visualvm/platform/core/core.jar
+jdk1.7.0_25/lib/visualvm/platform/core/locale/
+jdk1.7.0_25/lib/visualvm/platform/core/locale/core_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/core/locale/core_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/core/locale/org-openide-filesystems_ja.jar
+jdk1.7.0_25/lib/visualvm/platform/core/locale/org-openide-filesystems_zh_CN.jar
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-util.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-explorer.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-options-keymap.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-queries.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-loaders.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-output2.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-spi-actions.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-swing-tabcontrol.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-autoupdate-services.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-autoupdate-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-javahelp.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-actions.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-execution.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-api-visual.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-favorites.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-api-progress.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-swing-outline.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-nodes.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-editor-mimelookup-impl.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-bootstrap.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-editor-mimelookup.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-awt.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-swing-plaf.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-filesystems.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-sendopts.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-masterfs.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-settings.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-modules.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-execution.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-util-enumerations.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-print.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-windows.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-windows.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-text.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-dialogs.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-compat.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-io.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-io-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-core-kit.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-keyring.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-progress-ui.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-applemenu.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-spi-quicksearch.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-keyring-impl.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-modules-options-api.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-startup.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-options.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-openide-util-lookup.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core-multiview.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-core.xml
+jdk1.7.0_25/lib/visualvm/platform/update_tracking/org-netbeans-api-annotations-common.xml
+jdk1.7.0_25/lib/visualvm/etc/
+jdk1.7.0_25/lib/visualvm/etc/visualvm.clusters
+jdk1.7.0_25/lib/visualvm/etc/visualvm.conf
+jdk1.7.0_25/lib/ir.idl
+jdk1.7.0_25/lib/ct.sym
+jdk1.7.0_25/lib/javafx-doclet.jar
+jdk1.7.0_25/lib/jexec
+jdk1.7.0_25/lib/sa-jdi.jar
+jdk1.7.0_25/lib/ant-javafx.jar
+jdk1.7.0_25/lib/jconsole.jar
+jdk1.7.0_25/lib/javafx-mx.jar
+jdk1.7.0_25/lib/dt.jar
+jdk1.7.0_25/lib/orb.idl
+jdk1.7.0_25/lib/tools.jar
+jdk1.7.0_25/src.zip
+jdk1.7.0_25/bin/
+jdk1.7.0_25/bin/java
+jdk1.7.0_25/bin/rmic
+jdk1.7.0_25/bin/idlj
+jdk1.7.0_25/bin/jvisualvm
+jdk1.7.0_25/bin/unpack200
+jdk1.7.0_25/bin/javah
+jdk1.7.0_25/bin/keytool
+jdk1.7.0_25/bin/pack200
+jdk1.7.0_25/bin/jps
+jdk1.7.0_25/bin/javac
+jdk1.7.0_25/bin/javadoc
+jdk1.7.0_25/bin/javafxpackager
+jdk1.7.0_25/bin/servertool
+jdk1.7.0_25/bin/jarsigner
+jdk1.7.0_25/bin/jrunscript
+jdk1.7.0_25/bin/serialver
+jdk1.7.0_25/bin/jcontrol
+jdk1.7.0_25/bin/wsgen
+jdk1.7.0_25/bin/orbd
+jdk1.7.0_25/bin/apt
+jdk1.7.0_25/bin/appletviewer
+jdk1.7.0_25/bin/jcmd
+jdk1.7.0_25/bin/jconsole
+jdk1.7.0_25/bin/javap
+jdk1.7.0_25/bin/rmid
+jdk1.7.0_25/bin/jdb
+jdk1.7.0_25/bin/rmiregistry
+jdk1.7.0_25/bin/jstat
+jdk1.7.0_25/bin/ControlPanel
+jdk1.7.0_25/bin/extcheck
+jdk1.7.0_25/bin/tnameserv
+jdk1.7.0_25/bin/jmap
+jdk1.7.0_25/bin/javaws
+jdk1.7.0_25/bin/jstack
+jdk1.7.0_25/bin/jsadebugd
+jdk1.7.0_25/bin/schemagen
+jdk1.7.0_25/bin/xjc
+jdk1.7.0_25/bin/wsimport
+jdk1.7.0_25/bin/policytool
+jdk1.7.0_25/bin/java-rmi.cgi
+jdk1.7.0_25/bin/jhat
+jdk1.7.0_25/bin/jar
+jdk1.7.0_25/bin/jstatd
+jdk1.7.0_25/bin/native2ascii
+jdk1.7.0_25/bin/jinfo
+jdk1.7.0_25/jre/
+jdk1.7.0_25/jre/Welcome.html
+jdk1.7.0_25/jre/lib/
+jdk1.7.0_25/jre/lib/psfontj2d.properties
+jdk1.7.0_25/jre/lib/plugin.jar
+jdk1.7.0_25/jre/lib/deploy.jar
+jdk1.7.0_25/jre/lib/net.properties
+jdk1.7.0_25/jre/lib/currency.data
+jdk1.7.0_25/jre/lib/logging.properties
+jdk1.7.0_25/jre/lib/charsets.jar
+jdk1.7.0_25/jre/lib/zi/
+jdk1.7.0_25/jre/lib/zi/GMT
+jdk1.7.0_25/jre/lib/zi/Asia/
+jdk1.7.0_25/jre/lib/zi/Asia/Pyongyang
+jdk1.7.0_25/jre/lib/zi/Asia/Qyzylorda
+jdk1.7.0_25/jre/lib/zi/Asia/Dili
+jdk1.7.0_25/jre/lib/zi/Asia/Tashkent
+jdk1.7.0_25/jre/lib/zi/Asia/Kabul
+jdk1.7.0_25/jre/lib/zi/Asia/Singapore
+jdk1.7.0_25/jre/lib/zi/Asia/Omsk
+jdk1.7.0_25/jre/lib/zi/Asia/Kamchatka
+jdk1.7.0_25/jre/lib/zi/Asia/Urumqi
+jdk1.7.0_25/jre/lib/zi/Asia/Samarkand
+jdk1.7.0_25/jre/lib/zi/Asia/Brunei
+jdk1.7.0_25/jre/lib/zi/Asia/Tokyo
+jdk1.7.0_25/jre/lib/zi/Asia/Krasnoyarsk
+jdk1.7.0_25/jre/lib/zi/Asia/Damascus
+jdk1.7.0_25/jre/lib/zi/Asia/Makassar
+jdk1.7.0_25/jre/lib/zi/Asia/Bangkok
+jdk1.7.0_25/jre/lib/zi/Asia/Vientiane
+jdk1.7.0_25/jre/lib/zi/Asia/Dhaka
+jdk1.7.0_25/jre/lib/zi/Asia/Bahrain
+jdk1.7.0_25/jre/lib/zi/Asia/Kuala_Lumpur
+jdk1.7.0_25/jre/lib/zi/Asia/Tehran
+jdk1.7.0_25/jre/lib/zi/Asia/Novosibirsk
+jdk1.7.0_25/jre/lib/zi/Asia/Choibalsan
+jdk1.7.0_25/jre/lib/zi/Asia/Baku
+jdk1.7.0_25/jre/lib/zi/Asia/Khandyga
+jdk1.7.0_25/jre/lib/zi/Asia/Oral
+jdk1.7.0_25/jre/lib/zi/Asia/Ho_Chi_Minh
+jdk1.7.0_25/jre/lib/zi/Asia/Gaza
+jdk1.7.0_25/jre/lib/zi/Asia/Macau
+jdk1.7.0_25/jre/lib/zi/Asia/Jayapura
+jdk1.7.0_25/jre/lib/zi/Asia/Qatar
+jdk1.7.0_25/jre/lib/zi/Asia/Karachi
+jdk1.7.0_25/jre/lib/zi/Asia/Amman
+jdk1.7.0_25/jre/lib/zi/Asia/Seoul
+jdk1.7.0_25/jre/lib/zi/Asia/Almaty
+jdk1.7.0_25/jre/lib/zi/Asia/Yekaterinburg
+jdk1.7.0_25/jre/lib/zi/Asia/Jakarta
+jdk1.7.0_25/jre/lib/zi/Asia/Chongqing
+jdk1.7.0_25/jre/lib/zi/Asia/Pontianak
+jdk1.7.0_25/jre/lib/zi/Asia/Baghdad
+jdk1.7.0_25/jre/lib/zi/Asia/Dushanbe
+jdk1.7.0_25/jre/lib/zi/Asia/Aden
+jdk1.7.0_25/jre/lib/zi/Asia/Magadan
+jdk1.7.0_25/jre/lib/zi/Asia/Kashgar
+jdk1.7.0_25/jre/lib/zi/Asia/Dubai
+jdk1.7.0_25/jre/lib/zi/Asia/Hebron
+jdk1.7.0_25/jre/lib/zi/Asia/Aqtau
+jdk1.7.0_25/jre/lib/zi/Asia/Kathmandu
+jdk1.7.0_25/jre/lib/zi/Asia/Thimphu
+jdk1.7.0_25/jre/lib/zi/Asia/Riyadh87
+jdk1.7.0_25/jre/lib/zi/Asia/Irkutsk
+jdk1.7.0_25/jre/lib/zi/Asia/Vladivostok
+jdk1.7.0_25/jre/lib/zi/Asia/Rangoon
+jdk1.7.0_25/jre/lib/zi/Asia/Hong_Kong
+jdk1.7.0_25/jre/lib/zi/Asia/Beirut
+jdk1.7.0_25/jre/lib/zi/Asia/Anadyr
+jdk1.7.0_25/jre/lib/zi/Asia/Ust-Nera
+jdk1.7.0_25/jre/lib/zi/Asia/Shanghai
+jdk1.7.0_25/jre/lib/zi/Asia/Tbilisi
+jdk1.7.0_25/jre/lib/zi/Asia/Novokuznetsk
+jdk1.7.0_25/jre/lib/zi/Asia/Ashgabat
+jdk1.7.0_25/jre/lib/zi/Asia/Muscat
+jdk1.7.0_25/jre/lib/zi/Asia/Harbin
+jdk1.7.0_25/jre/lib/zi/Asia/Taipei
+jdk1.7.0_25/jre/lib/zi/Asia/Aqtobe
+jdk1.7.0_25/jre/lib/zi/Asia/Phnom_Penh
+jdk1.7.0_25/jre/lib/zi/Asia/Ulaanbaatar
+jdk1.7.0_25/jre/lib/zi/Asia/Bishkek
+jdk1.7.0_25/jre/lib/zi/Asia/Kuching
+jdk1.7.0_25/jre/lib/zi/Asia/Yakutsk
+jdk1.7.0_25/jre/lib/zi/Asia/Manila
+jdk1.7.0_25/jre/lib/zi/Asia/Riyadh88
+jdk1.7.0_25/jre/lib/zi/Asia/Colombo
+jdk1.7.0_25/jre/lib/zi/Asia/Hovd
+jdk1.7.0_25/jre/lib/zi/Asia/Yerevan
+jdk1.7.0_25/jre/lib/zi/Asia/Kolkata
+jdk1.7.0_25/jre/lib/zi/Asia/Kuwait
+jdk1.7.0_25/jre/lib/zi/Asia/Riyadh89
+jdk1.7.0_25/jre/lib/zi/Asia/Sakhalin
+jdk1.7.0_25/jre/lib/zi/Asia/Jerusalem
+jdk1.7.0_25/jre/lib/zi/Asia/Nicosia
+jdk1.7.0_25/jre/lib/zi/Asia/Riyadh
+jdk1.7.0_25/jre/lib/zi/EST
+jdk1.7.0_25/jre/lib/zi/Europe/
+jdk1.7.0_25/jre/lib/zi/Europe/Berlin
+jdk1.7.0_25/jre/lib/zi/Europe/Amsterdam
+jdk1.7.0_25/jre/lib/zi/Europe/Sofia
+jdk1.7.0_25/jre/lib/zi/Europe/Riga
+jdk1.7.0_25/jre/lib/zi/Europe/Tallinn
+jdk1.7.0_25/jre/lib/zi/Europe/Minsk
+jdk1.7.0_25/jre/lib/zi/Europe/Madrid
+jdk1.7.0_25/jre/lib/zi/Europe/Oslo
+jdk1.7.0_25/jre/lib/zi/Europe/Vienna
+jdk1.7.0_25/jre/lib/zi/Europe/Belgrade
+jdk1.7.0_25/jre/lib/zi/Europe/Simferopol
+jdk1.7.0_25/jre/lib/zi/Europe/Tirane
+jdk1.7.0_25/jre/lib/zi/Europe/Warsaw
+jdk1.7.0_25/jre/lib/zi/Europe/Volgograd
+jdk1.7.0_25/jre/lib/zi/Europe/Malta
+jdk1.7.0_25/jre/lib/zi/Europe/Gibraltar
+jdk1.7.0_25/jre/lib/zi/Europe/Kiev
+jdk1.7.0_25/jre/lib/zi/Europe/Dublin
+jdk1.7.0_25/jre/lib/zi/Europe/Zaporozhye
+jdk1.7.0_25/jre/lib/zi/Europe/Brussels
+jdk1.7.0_25/jre/lib/zi/Europe/Stockholm
+jdk1.7.0_25/jre/lib/zi/Europe/Paris
+jdk1.7.0_25/jre/lib/zi/Europe/London
+jdk1.7.0_25/jre/lib/zi/Europe/Lisbon
+jdk1.7.0_25/jre/lib/zi/Europe/Helsinki
+jdk1.7.0_25/jre/lib/zi/Europe/Andorra
+jdk1.7.0_25/jre/lib/zi/Europe/Kaliningrad
+jdk1.7.0_25/jre/lib/zi/Europe/Uzhgorod
+jdk1.7.0_25/jre/lib/zi/Europe/Vilnius
+jdk1.7.0_25/jre/lib/zi/Europe/Luxembourg
+jdk1.7.0_25/jre/lib/zi/Europe/Vaduz
+jdk1.7.0_25/jre/lib/zi/Europe/Copenhagen
+jdk1.7.0_25/jre/lib/zi/Europe/Moscow
+jdk1.7.0_25/jre/lib/zi/Europe/Prague
+jdk1.7.0_25/jre/lib/zi/Europe/Istanbul
+jdk1.7.0_25/jre/lib/zi/Europe/Athens
+jdk1.7.0_25/jre/lib/zi/Europe/Monaco
+jdk1.7.0_25/jre/lib/zi/Europe/Zurich
+jdk1.7.0_25/jre/lib/zi/Europe/Rome
+jdk1.7.0_25/jre/lib/zi/Europe/Budapest
+jdk1.7.0_25/jre/lib/zi/Europe/Chisinau
+jdk1.7.0_25/jre/lib/zi/Europe/Bucharest
+jdk1.7.0_25/jre/lib/zi/Europe/Samara
+jdk1.7.0_25/jre/lib/zi/MET
+jdk1.7.0_25/jre/lib/zi/CET
+jdk1.7.0_25/jre/lib/zi/PST8PDT
+jdk1.7.0_25/jre/lib/zi/MST
+jdk1.7.0_25/jre/lib/zi/Atlantic/
+jdk1.7.0_25/jre/lib/zi/Atlantic/South_Georgia
+jdk1.7.0_25/jre/lib/zi/Atlantic/Azores
+jdk1.7.0_25/jre/lib/zi/Atlantic/Faroe
+jdk1.7.0_25/jre/lib/zi/Atlantic/Madeira
+jdk1.7.0_25/jre/lib/zi/Atlantic/Reykjavik
+jdk1.7.0_25/jre/lib/zi/Atlantic/Canary
+jdk1.7.0_25/jre/lib/zi/Atlantic/Stanley
+jdk1.7.0_25/jre/lib/zi/Atlantic/St_Helena
+jdk1.7.0_25/jre/lib/zi/Atlantic/Cape_Verde
+jdk1.7.0_25/jre/lib/zi/Atlantic/Bermuda
+jdk1.7.0_25/jre/lib/zi/Indian/
+jdk1.7.0_25/jre/lib/zi/Indian/Cocos
+jdk1.7.0_25/jre/lib/zi/Indian/Mahe
+jdk1.7.0_25/jre/lib/zi/Indian/Kerguelen
+jdk1.7.0_25/jre/lib/zi/Indian/Christmas
+jdk1.7.0_25/jre/lib/zi/Indian/Mauritius
+jdk1.7.0_25/jre/lib/zi/Indian/Antananarivo
+jdk1.7.0_25/jre/lib/zi/Indian/Mayotte
+jdk1.7.0_25/jre/lib/zi/Indian/Maldives
+jdk1.7.0_25/jre/lib/zi/Indian/Comoro
+jdk1.7.0_25/jre/lib/zi/Indian/Reunion
+jdk1.7.0_25/jre/lib/zi/Indian/Chagos
+jdk1.7.0_25/jre/lib/zi/EET
+jdk1.7.0_25/jre/lib/zi/Pacific/
+jdk1.7.0_25/jre/lib/zi/Pacific/Majuro
+jdk1.7.0_25/jre/lib/zi/Pacific/Efate
+jdk1.7.0_25/jre/lib/zi/Pacific/Port_Moresby
+jdk1.7.0_25/jre/lib/zi/Pacific/Tarawa
+jdk1.7.0_25/jre/lib/zi/Pacific/Easter
+jdk1.7.0_25/jre/lib/zi/Pacific/Tahiti
+jdk1.7.0_25/jre/lib/zi/Pacific/Noumea
+jdk1.7.0_25/jre/lib/zi/Pacific/Kiritimati
+jdk1.7.0_25/jre/lib/zi/Pacific/Fakaofo
+jdk1.7.0_25/jre/lib/zi/Pacific/Auckland
+jdk1.7.0_25/jre/lib/zi/Pacific/Guadalcanal
+jdk1.7.0_25/jre/lib/zi/Pacific/Kosrae
+jdk1.7.0_25/jre/lib/zi/Pacific/Fiji
+jdk1.7.0_25/jre/lib/zi/Pacific/Chuuk
+jdk1.7.0_25/jre/lib/zi/Pacific/Pitcairn
+jdk1.7.0_25/jre/lib/zi/Pacific/Tongatapu
+jdk1.7.0_25/jre/lib/zi/Pacific/Apia
+jdk1.7.0_25/jre/lib/zi/Pacific/Guam
+jdk1.7.0_25/jre/lib/zi/Pacific/Nauru
+jdk1.7.0_25/jre/lib/zi/Pacific/Enderbury
+jdk1.7.0_25/jre/lib/zi/Pacific/Pohnpei
+jdk1.7.0_25/jre/lib/zi/Pacific/Kwajalein
+jdk1.7.0_25/jre/lib/zi/Pacific/Palau
+jdk1.7.0_25/jre/lib/zi/Pacific/Rarotonga
+jdk1.7.0_25/jre/lib/zi/Pacific/Norfolk
+jdk1.7.0_25/jre/lib/zi/Pacific/Pago_Pago
+jdk1.7.0_25/jre/lib/zi/Pacific/Johnston
+jdk1.7.0_25/jre/lib/zi/Pacific/Midway
+jdk1.7.0_25/jre/lib/zi/Pacific/Niue
+jdk1.7.0_25/jre/lib/zi/Pacific/Galapagos
+jdk1.7.0_25/jre/lib/zi/Pacific/Gambier
+jdk1.7.0_25/jre/lib/zi/Pacific/Wallis
+jdk1.7.0_25/jre/lib/zi/Pacific/Honolulu
+jdk1.7.0_25/jre/lib/zi/Pacific/Marquesas
+jdk1.7.0_25/jre/lib/zi/Pacific/Saipan
+jdk1.7.0_25/jre/lib/zi/Pacific/Funafuti
+jdk1.7.0_25/jre/lib/zi/Pacific/Chatham
+jdk1.7.0_25/jre/lib/zi/Pacific/Wake
+jdk1.7.0_25/jre/lib/zi/ZoneInfoMappings
+jdk1.7.0_25/jre/lib/zi/Etc/
+jdk1.7.0_25/jre/lib/zi/Etc/GMT
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+12
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-1
+jdk1.7.0_25/jre/lib/zi/Etc/UCT
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+9
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+2
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-11
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-4
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-8
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-12
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-14
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-7
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-9
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-2
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+4
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+5
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-5
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+8
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+10
+jdk1.7.0_25/jre/lib/zi/Etc/UTC
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-10
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+1
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-3
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-6
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+7
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+3
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+11
+jdk1.7.0_25/jre/lib/zi/Etc/GMT-13
+jdk1.7.0_25/jre/lib/zi/Etc/GMT+6
+jdk1.7.0_25/jre/lib/zi/America/
+jdk1.7.0_25/jre/lib/zi/America/Montserrat
+jdk1.7.0_25/jre/lib/zi/America/Monterrey
+jdk1.7.0_25/jre/lib/zi/America/Nome
+jdk1.7.0_25/jre/lib/zi/America/Mexico_City
+jdk1.7.0_25/jre/lib/zi/America/Campo_Grande
+jdk1.7.0_25/jre/lib/zi/America/Santo_Domingo
+jdk1.7.0_25/jre/lib/zi/America/St_Kitts
+jdk1.7.0_25/jre/lib/zi/America/Rainy_River
+jdk1.7.0_25/jre/lib/zi/America/Grenada
+jdk1.7.0_25/jre/lib/zi/America/Vancouver
+jdk1.7.0_25/jre/lib/zi/America/Barbados
+jdk1.7.0_25/jre/lib/zi/America/Nassau
+jdk1.7.0_25/jre/lib/zi/America/Winnipeg
+jdk1.7.0_25/jre/lib/zi/America/Inuvik
+jdk1.7.0_25/jre/lib/zi/America/Santa_Isabel
+jdk1.7.0_25/jre/lib/zi/America/Chihuahua
+jdk1.7.0_25/jre/lib/zi/America/Cayman
+jdk1.7.0_25/jre/lib/zi/America/Port-au-Prince
+jdk1.7.0_25/jre/lib/zi/America/Nipigon
+jdk1.7.0_25/jre/lib/zi/America/Whitehorse
+jdk1.7.0_25/jre/lib/zi/America/Yakutat
+jdk1.7.0_25/jre/lib/zi/America/Glace_Bay
+jdk1.7.0_25/jre/lib/zi/America/Recife
+jdk1.7.0_25/jre/lib/zi/America/Maceio
+jdk1.7.0_25/jre/lib/zi/America/Moncton
+jdk1.7.0_25/jre/lib/zi/America/Iqaluit
+jdk1.7.0_25/jre/lib/zi/America/Godthab
+jdk1.7.0_25/jre/lib/zi/America/Puerto_Rico
+jdk1.7.0_25/jre/lib/zi/America/Swift_Current
+jdk1.7.0_25/jre/lib/zi/America/Anchorage
+jdk1.7.0_25/jre/lib/zi/America/Halifax
+jdk1.7.0_25/jre/lib/zi/America/Santiago
+jdk1.7.0_25/jre/lib/zi/America/Hermosillo
+jdk1.7.0_25/jre/lib/zi/America/Phoenix
+jdk1.7.0_25/jre/lib/zi/America/Resolute
+jdk1.7.0_25/jre/lib/zi/America/New_York
+jdk1.7.0_25/jre/lib/zi/America/Sao_Paulo
+jdk1.7.0_25/jre/lib/zi/America/Paramaribo
+jdk1.7.0_25/jre/lib/zi/America/Guyana
+jdk1.7.0_25/jre/lib/zi/America/Montevideo
+jdk1.7.0_25/jre/lib/zi/America/Araguaina
+jdk1.7.0_25/jre/lib/zi/America/Panama
+jdk1.7.0_25/jre/lib/zi/America/Curacao
+jdk1.7.0_25/jre/lib/zi/America/Sitka
+jdk1.7.0_25/jre/lib/zi/America/Dominica
+jdk1.7.0_25/jre/lib/zi/America/Cuiaba
+jdk1.7.0_25/jre/lib/zi/America/Mazatlan
+jdk1.7.0_25/jre/lib/zi/America/Adak
+jdk1.7.0_25/jre/lib/zi/America/Boa_Vista
+jdk1.7.0_25/jre/lib/zi/America/Metlakatla
+jdk1.7.0_25/jre/lib/zi/America/St_Thomas
+jdk1.7.0_25/jre/lib/zi/America/Belem
+jdk1.7.0_25/jre/lib/zi/America/Los_Angeles
+jdk1.7.0_25/jre/lib/zi/America/Guadeloupe
+jdk1.7.0_25/jre/lib/zi/America/Bahia
+jdk1.7.0_25/jre/lib/zi/America/Goose_Bay
+jdk1.7.0_25/jre/lib/zi/America/Thule
+jdk1.7.0_25/jre/lib/zi/America/North_Dakota/
+jdk1.7.0_25/jre/lib/zi/America/North_Dakota/New_Salem
+jdk1.7.0_25/jre/lib/zi/America/North_Dakota/Beulah
+jdk1.7.0_25/jre/lib/zi/America/North_Dakota/Center
+jdk1.7.0_25/jre/lib/zi/America/Edmonton
+jdk1.7.0_25/jre/lib/zi/America/Bahia_Banderas
+jdk1.7.0_25/jre/lib/zi/America/Jamaica
+jdk1.7.0_25/jre/lib/zi/America/Pangnirtung
+jdk1.7.0_25/jre/lib/zi/America/Menominee
+jdk1.7.0_25/jre/lib/zi/America/Chicago
+jdk1.7.0_25/jre/lib/zi/America/Ojinaga
+jdk1.7.0_25/jre/lib/zi/America/Danmarkshavn
+jdk1.7.0_25/jre/lib/zi/America/Tortola
+jdk1.7.0_25/jre/lib/zi/America/Belize
+jdk1.7.0_25/jre/lib/zi/America/Cambridge_Bay
+jdk1.7.0_25/jre/lib/zi/America/Kentucky/
+jdk1.7.0_25/jre/lib/zi/America/Kentucky/Monticello
+jdk1.7.0_25/jre/lib/zi/America/Kentucky/Louisville
+jdk1.7.0_25/jre/lib/zi/America/Creston
+jdk1.7.0_25/jre/lib/zi/America/Tegucigalpa
+jdk1.7.0_25/jre/lib/zi/America/Martinique
+jdk1.7.0_25/jre/lib/zi/America/Antigua
+jdk1.7.0_25/jre/lib/zi/America/Argentina/
+jdk1.7.0_25/jre/lib/zi/America/Argentina/La_Rioja
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Mendoza
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Ushuaia
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Buenos_Aires
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Catamarca
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Tucuman
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Salta
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Rio_Gallegos
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Cordoba
+jdk1.7.0_25/jre/lib/zi/America/Argentina/San_Juan
+jdk1.7.0_25/jre/lib/zi/America/Argentina/San_Luis
+jdk1.7.0_25/jre/lib/zi/America/Argentina/Jujuy
+jdk1.7.0_25/jre/lib/zi/America/Fortaleza
+jdk1.7.0_25/jre/lib/zi/America/Yellowknife
+jdk1.7.0_25/jre/lib/zi/America/Eirunepe
+jdk1.7.0_25/jre/lib/zi/America/Miquelon
+jdk1.7.0_25/jre/lib/zi/America/Detroit
+jdk1.7.0_25/jre/lib/zi/America/Rankin_Inlet
+jdk1.7.0_25/jre/lib/zi/America/Cancun
+jdk1.7.0_25/jre/lib/zi/America/Merida
+jdk1.7.0_25/jre/lib/zi/America/Santarem
+jdk1.7.0_25/jre/lib/zi/America/Guatemala
+jdk1.7.0_25/jre/lib/zi/America/Indiana/
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Tell_City
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Winamac
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Vevay
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Indianapolis
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Knox
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Marengo
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Vincennes
+jdk1.7.0_25/jre/lib/zi/America/Indiana/Petersburg
+jdk1.7.0_25/jre/lib/zi/America/Juneau
+jdk1.7.0_25/jre/lib/zi/America/St_Lucia
+jdk1.7.0_25/jre/lib/zi/America/Manaus
+jdk1.7.0_25/jre/lib/zi/America/Boise
+jdk1.7.0_25/jre/lib/zi/America/Noronha
+jdk1.7.0_25/jre/lib/zi/America/Toronto
+jdk1.7.0_25/jre/lib/zi/America/Atikokan
+jdk1.7.0_25/jre/lib/zi/America/Bogota
+jdk1.7.0_25/jre/lib/zi/America/Havana
+jdk1.7.0_25/jre/lib/zi/America/Cayenne
+jdk1.7.0_25/jre/lib/zi/America/Aruba
+jdk1.7.0_25/jre/lib/zi/America/Managua
+jdk1.7.0_25/jre/lib/zi/America/Costa_Rica
+jdk1.7.0_25/jre/lib/zi/America/Tijuana
+jdk1.7.0_25/jre/lib/zi/America/Scoresbysund
+jdk1.7.0_25/jre/lib/zi/America/Dawson
+jdk1.7.0_25/jre/lib/zi/America/Porto_Velho
+jdk1.7.0_25/jre/lib/zi/America/Rio_Branco
+jdk1.7.0_25/jre/lib/zi/America/Lima
+jdk1.7.0_25/jre/lib/zi/America/Anguilla
+jdk1.7.0_25/jre/lib/zi/America/Guayaquil
+jdk1.7.0_25/jre/lib/zi/America/Port_of_Spain
+jdk1.7.0_25/jre/lib/zi/America/St_Vincent
+jdk1.7.0_25/jre/lib/zi/America/Regina
+jdk1.7.0_25/jre/lib/zi/America/Asuncion
+jdk1.7.0_25/jre/lib/zi/America/Caracas
+jdk1.7.0_25/jre/lib/zi/America/Matamoros
+jdk1.7.0_25/jre/lib/zi/America/Denver
+jdk1.7.0_25/jre/lib/zi/America/Montreal
+jdk1.7.0_25/jre/lib/zi/America/Dawson_Creek
+jdk1.7.0_25/jre/lib/zi/America/Blanc-Sablon
+jdk1.7.0_25/jre/lib/zi/America/Grand_Turk
+jdk1.7.0_25/jre/lib/zi/America/La_Paz
+jdk1.7.0_25/jre/lib/zi/America/Thunder_Bay
+jdk1.7.0_25/jre/lib/zi/America/El_Salvador
+jdk1.7.0_25/jre/lib/zi/America/St_Johns
+jdk1.7.0_25/jre/lib/zi/Antarctica/
+jdk1.7.0_25/jre/lib/zi/Antarctica/Casey
+jdk1.7.0_25/jre/lib/zi/Antarctica/Syowa
+jdk1.7.0_25/jre/lib/zi/Antarctica/DumontDUrville
+jdk1.7.0_25/jre/lib/zi/Antarctica/Rothera
+jdk1.7.0_25/jre/lib/zi/Antarctica/Mawson
+jdk1.7.0_25/jre/lib/zi/Antarctica/Macquarie
+jdk1.7.0_25/jre/lib/zi/Antarctica/Davis
+jdk1.7.0_25/jre/lib/zi/Antarctica/Vostok
+jdk1.7.0_25/jre/lib/zi/Antarctica/McMurdo
+jdk1.7.0_25/jre/lib/zi/Antarctica/Palmer
+jdk1.7.0_25/jre/lib/zi/MST7MDT
+jdk1.7.0_25/jre/lib/zi/Australia/
+jdk1.7.0_25/jre/lib/zi/Australia/Eucla
+jdk1.7.0_25/jre/lib/zi/Australia/Darwin
+jdk1.7.0_25/jre/lib/zi/Australia/Broken_Hill
+jdk1.7.0_25/jre/lib/zi/Australia/Hobart
+jdk1.7.0_25/jre/lib/zi/Australia/Lord_Howe
+jdk1.7.0_25/jre/lib/zi/Australia/Lindeman
+jdk1.7.0_25/jre/lib/zi/Australia/Perth
+jdk1.7.0_25/jre/lib/zi/Australia/Melbourne
+jdk1.7.0_25/jre/lib/zi/Australia/Adelaide
+jdk1.7.0_25/jre/lib/zi/Australia/Sydney
+jdk1.7.0_25/jre/lib/zi/Australia/Brisbane
+jdk1.7.0_25/jre/lib/zi/Australia/Currie
+jdk1.7.0_25/jre/lib/zi/SystemV/
+jdk1.7.0_25/jre/lib/zi/SystemV/YST9YDT
+jdk1.7.0_25/jre/lib/zi/SystemV/AST4
+jdk1.7.0_25/jre/lib/zi/SystemV/PST8PDT
+jdk1.7.0_25/jre/lib/zi/SystemV/AST4ADT
+jdk1.7.0_25/jre/lib/zi/SystemV/YST9
+jdk1.7.0_25/jre/lib/zi/SystemV/CST6
+jdk1.7.0_25/jre/lib/zi/SystemV/MST7MDT
+jdk1.7.0_25/jre/lib/zi/SystemV/EST5
+jdk1.7.0_25/jre/lib/zi/SystemV/CST6CDT
+jdk1.7.0_25/jre/lib/zi/SystemV/MST7
+jdk1.7.0_25/jre/lib/zi/SystemV/PST8
+jdk1.7.0_25/jre/lib/zi/SystemV/EST5EDT
+jdk1.7.0_25/jre/lib/zi/SystemV/HST10
+jdk1.7.0_25/jre/lib/zi/WET
+jdk1.7.0_25/jre/lib/zi/CST6CDT
+jdk1.7.0_25/jre/lib/zi/Africa/
+jdk1.7.0_25/jre/lib/zi/Africa/Mbabane
+jdk1.7.0_25/jre/lib/zi/Africa/Nairobi
+jdk1.7.0_25/jre/lib/zi/Africa/Kampala
+jdk1.7.0_25/jre/lib/zi/Africa/Banjul
+jdk1.7.0_25/jre/lib/zi/Africa/Ceuta
+jdk1.7.0_25/jre/lib/zi/Africa/Luanda
+jdk1.7.0_25/jre/lib/zi/Africa/Maseru
+jdk1.7.0_25/jre/lib/zi/Africa/Maputo
+jdk1.7.0_25/jre/lib/zi/Africa/Dar_es_Salaam
+jdk1.7.0_25/jre/lib/zi/Africa/Mogadishu
+jdk1.7.0_25/jre/lib/zi/Africa/Tunis
+jdk1.7.0_25/jre/lib/zi/Africa/Addis_Ababa
+jdk1.7.0_25/jre/lib/zi/Africa/Johannesburg
+jdk1.7.0_25/jre/lib/zi/Africa/Nouakchott
+jdk1.7.0_25/jre/lib/zi/Africa/Algiers
+jdk1.7.0_25/jre/lib/zi/Africa/Freetown
+jdk1.7.0_25/jre/lib/zi/Africa/Sao_Tome
+jdk1.7.0_25/jre/lib/zi/Africa/Khartoum
+jdk1.7.0_25/jre/lib/zi/Africa/Lusaka
+jdk1.7.0_25/jre/lib/zi/Africa/Monrovia
+jdk1.7.0_25/jre/lib/zi/Africa/Cairo
+jdk1.7.0_25/jre/lib/zi/Africa/Conakry
+jdk1.7.0_25/jre/lib/zi/Africa/Malabo
+jdk1.7.0_25/jre/lib/zi/Africa/Blantyre
+jdk1.7.0_25/jre/lib/zi/Africa/Lagos
+jdk1.7.0_25/jre/lib/zi/Africa/Juba
+jdk1.7.0_25/jre/lib/zi/Africa/Lubumbashi
+jdk1.7.0_25/jre/lib/zi/Africa/Lome
+jdk1.7.0_25/jre/lib/zi/Africa/Porto-Novo
+jdk1.7.0_25/jre/lib/zi/Africa/Asmara
+jdk1.7.0_25/jre/lib/zi/Africa/Abidjan
+jdk1.7.0_25/jre/lib/zi/Africa/Kigali
+jdk1.7.0_25/jre/lib/zi/Africa/Windhoek
+jdk1.7.0_25/jre/lib/zi/Africa/Djibouti
+jdk1.7.0_25/jre/lib/zi/Africa/Douala
+jdk1.7.0_25/jre/lib/zi/Africa/Niamey
+jdk1.7.0_25/jre/lib/zi/Africa/Ndjamena
+jdk1.7.0_25/jre/lib/zi/Africa/Bangui
+jdk1.7.0_25/jre/lib/zi/Africa/Bamako
+jdk1.7.0_25/jre/lib/zi/Africa/Ouagadougou
+jdk1.7.0_25/jre/lib/zi/Africa/El_Aaiun
+jdk1.7.0_25/jre/lib/zi/Africa/Casablanca
+jdk1.7.0_25/jre/lib/zi/Africa/Gaborone
+jdk1.7.0_25/jre/lib/zi/Africa/Bujumbura
+jdk1.7.0_25/jre/lib/zi/Africa/Bissau
+jdk1.7.0_25/jre/lib/zi/Africa/Accra
+jdk1.7.0_25/jre/lib/zi/Africa/Libreville
+jdk1.7.0_25/jre/lib/zi/Africa/Brazzaville
+jdk1.7.0_25/jre/lib/zi/Africa/Dakar
+jdk1.7.0_25/jre/lib/zi/Africa/Harare
+jdk1.7.0_25/jre/lib/zi/Africa/Kinshasa
+jdk1.7.0_25/jre/lib/zi/Africa/Tripoli
+jdk1.7.0_25/jre/lib/zi/HST
+jdk1.7.0_25/jre/lib/zi/EST5EDT
+jdk1.7.0_25/jre/lib/rt.jar
+jdk1.7.0_25/jre/lib/fontconfig.Turbo.bfc
+jdk1.7.0_25/jre/lib/desktop/
+jdk1.7.0_25/jre/lib/desktop/applications/
+jdk1.7.0_25/jre/lib/desktop/applications/sun_java.desktop
+jdk1.7.0_25/jre/lib/desktop/applications/sun-java.desktop
+jdk1.7.0_25/jre/lib/desktop/applications/sun-javaws.desktop
+jdk1.7.0_25/jre/lib/desktop/mime/
+jdk1.7.0_25/jre/lib/desktop/mime/packages/
+jdk1.7.0_25/jre/lib/desktop/mime/packages/x-java-jnlp-file.xml
+jdk1.7.0_25/jre/lib/desktop/mime/packages/x-java-archive.xml
+jdk1.7.0_25/jre/lib/desktop/icons/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/apps/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-javaws.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-jcontrol.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-text-x-java.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png
+jdk1.7.0_25/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png
+jdk1.7.0_25/jre/lib/jexec
+jdk1.7.0_25/jre/lib/sound.properties
+jdk1.7.0_25/jre/lib/alt-rt.jar
+jdk1.7.0_25/jre/lib/jce.jar
+jdk1.7.0_25/jre/lib/oblique-fonts/
+jdk1.7.0_25/jre/lib/oblique-fonts/LucidaTypewriterOblique.ttf
+jdk1.7.0_25/jre/lib/oblique-fonts/LucidaSansDemiOblique.ttf
+jdk1.7.0_25/jre/lib/oblique-fonts/fonts.dir
+jdk1.7.0_25/jre/lib/oblique-fonts/LucidaTypewriterBoldOblique.ttf
+jdk1.7.0_25/jre/lib/oblique-fonts/LucidaSansOblique.ttf
+jdk1.7.0_25/jre/lib/servicetag/
+jdk1.7.0_25/jre/lib/servicetag/jdk_header.png
+jdk1.7.0_25/jre/lib/deploy/
+jdk1.7.0_25/jre/lib/deploy/messages_ja.properties
+jdk1.7.0_25/jre/lib/deploy/messages_de.properties
+jdk1.7.0_25/jre/lib/deploy/messages_es.properties
+jdk1.7.0_25/jre/lib/deploy/messages_zh_CN.properties
+jdk1.7.0_25/jre/lib/deploy/messages_pt_BR.properties
+jdk1.7.0_25/jre/lib/deploy/messages_zh_HK.properties
+jdk1.7.0_25/jre/lib/deploy/MixedCodeMainDialog.ui
+jdk1.7.0_25/jre/lib/deploy/messages_zh_TW.properties
+jdk1.7.0_25/jre/lib/deploy/messages_sv.properties
+jdk1.7.0_25/jre/lib/deploy/cautionshield.icns
+jdk1.7.0_25/jre/lib/deploy/messages.properties
+jdk1.7.0_25/jre/lib/deploy/messages_fr.properties
+jdk1.7.0_25/jre/lib/deploy/ffjcext.zip
+jdk1.7.0_25/jre/lib/deploy/java-icon.ico
+jdk1.7.0_25/jre/lib/deploy/messages_it.properties
+jdk1.7.0_25/jre/lib/deploy/splash.gif
+jdk1.7.0_25/jre/lib/deploy/mixcode_s.png
+jdk1.7.0_25/jre/lib/deploy/messages_ko.properties
+jdk1.7.0_25/jre/lib/content-types.properties
+jdk1.7.0_25/jre/lib/resources.jar
+jdk1.7.0_25/jre/lib/javaws.jar
+jdk1.7.0_25/jre/lib/images/
+jdk1.7.0_25/jre/lib/images/cursors/
+jdk1.7.0_25/jre/lib/images/cursors/motif_LinkDrop32x32.gif
+jdk1.7.0_25/jre/lib/images/cursors/motif_MoveNoDrop32x32.gif
+jdk1.7.0_25/jre/lib/images/cursors/motif_LinkNoDrop32x32.gif
+jdk1.7.0_25/jre/lib/images/cursors/cursors.properties
+jdk1.7.0_25/jre/lib/images/cursors/motif_MoveDrop32x32.gif
+jdk1.7.0_25/jre/lib/images/cursors/motif_CopyDrop32x32.gif
+jdk1.7.0_25/jre/lib/images/cursors/invalid32x32.gif
+jdk1.7.0_25/jre/lib/images/cursors/motif_CopyNoDrop32x32.gif
+jdk1.7.0_25/jre/lib/images/icons/
+jdk1.7.0_25/jre/lib/images/icons/sun-java_HighContrast.png
+jdk1.7.0_25/jre/lib/images/icons/sun-java_LowContrast.png
+jdk1.7.0_25/jre/lib/images/icons/sun-java_HighContrastInverse.png
+jdk1.7.0_25/jre/lib/images/icons/sun-java.png
+jdk1.7.0_25/jre/lib/classlist
+jdk1.7.0_25/jre/lib/applet/
+jdk1.7.0_25/jre/lib/locale/
+jdk1.7.0_25/jre/lib/locale/sv/
+jdk1.7.0_25/jre/lib/locale/sv/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/sv/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/ja/
+jdk1.7.0_25/jre/lib/locale/ja/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/ja/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/zh_TW.BIG5/
+jdk1.7.0_25/jre/lib/locale/zh_TW.BIG5/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/zh_TW.BIG5/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/zh_TW/
+jdk1.7.0_25/jre/lib/locale/zh_TW/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/zh_TW/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/ko/
+jdk1.7.0_25/jre/lib/locale/ko/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/ko/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/es/
+jdk1.7.0_25/jre/lib/locale/es/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/es/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/zh/
+jdk1.7.0_25/jre/lib/locale/zh/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/zh/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/it/
+jdk1.7.0_25/jre/lib/locale/it/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/it/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/zh.GBK/
+jdk1.7.0_25/jre/lib/locale/zh.GBK/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/zh.GBK/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/fr/
+jdk1.7.0_25/jre/lib/locale/fr/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/fr/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/de/
+jdk1.7.0_25/jre/lib/locale/de/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/de/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/pt_BR/
+jdk1.7.0_25/jre/lib/locale/pt_BR/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/pt_BR/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/zh_HK.BIG5HK/
+jdk1.7.0_25/jre/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/locale/ko.UTF-8/
+jdk1.7.0_25/jre/lib/locale/ko.UTF-8/LC_MESSAGES/
+jdk1.7.0_25/jre/lib/locale/ko.UTF-8/LC_MESSAGES/sunw_java_plugin.mo
+jdk1.7.0_25/jre/lib/jfr.jar
+jdk1.7.0_25/jre/lib/management/
+jdk1.7.0_25/jre/lib/management/jmxremote.access
+jdk1.7.0_25/jre/lib/management/snmp.acl.template
+jdk1.7.0_25/jre/lib/management/jmxremote.password.template
+jdk1.7.0_25/jre/lib/management/management.properties
+jdk1.7.0_25/jre/lib/ext/
+jdk1.7.0_25/jre/lib/ext/localedata.jar
+jdk1.7.0_25/jre/lib/ext/sunec.jar
+jdk1.7.0_25/jre/lib/ext/zipfs.jar
+jdk1.7.0_25/jre/lib/ext/sunjce_provider.jar
+jdk1.7.0_25/jre/lib/ext/meta-index
+jdk1.7.0_25/jre/lib/ext/dnsns.jar
+jdk1.7.0_25/jre/lib/ext/sunpkcs11.jar
+jdk1.7.0_25/jre/lib/fontconfig.SuSE.11.properties.src
+jdk1.7.0_25/jre/lib/jvm.hprof.txt
+jdk1.7.0_25/jre/lib/fontconfig.RedHat.5.bfc
+jdk1.7.0_25/jre/lib/jsse.jar
+jdk1.7.0_25/jre/lib/meta-index
+jdk1.7.0_25/jre/lib/fontconfig.SuSE.10.properties.src
+jdk1.7.0_25/jre/lib/fontconfig.Turbo.properties.src
+jdk1.7.0_25/jre/lib/flavormap.properties
+jdk1.7.0_25/jre/lib/psfont.properties.ja
+jdk1.7.0_25/jre/lib/fontconfig.RedHat.6.bfc
+jdk1.7.0_25/jre/lib/security/
+jdk1.7.0_25/jre/lib/security/cacerts
+jdk1.7.0_25/jre/lib/security/local_policy.jar
+jdk1.7.0_25/jre/lib/security/US_export_policy.jar
+jdk1.7.0_25/jre/lib/security/javaws.policy
+jdk1.7.0_25/jre/lib/security/blacklist
+jdk1.7.0_25/jre/lib/security/trusted.libraries
+jdk1.7.0_25/jre/lib/security/java.security
+jdk1.7.0_25/jre/lib/security/javafx.policy
+jdk1.7.0_25/jre/lib/security/java.policy
+jdk1.7.0_25/jre/lib/fonts/
+jdk1.7.0_25/jre/lib/fonts/LucidaBrightItalic.ttf
+jdk1.7.0_25/jre/lib/fonts/fonts.dir
+jdk1.7.0_25/jre/lib/fonts/LucidaBrightDemiItalic.ttf
+jdk1.7.0_25/jre/lib/fonts/LucidaTypewriterBold.ttf
+jdk1.7.0_25/jre/lib/fonts/LucidaBrightRegular.ttf
+jdk1.7.0_25/jre/lib/fonts/LucidaSansDemiBold.ttf
+jdk1.7.0_25/jre/lib/fonts/LucidaSansRegular.ttf
+jdk1.7.0_25/jre/lib/fonts/LucidaTypewriterRegular.ttf
+jdk1.7.0_25/jre/lib/fonts/LucidaBrightDemiBold.ttf
+jdk1.7.0_25/jre/lib/fontconfig.RedHat.5.properties.src
+jdk1.7.0_25/jre/lib/calendars.properties
+jdk1.7.0_25/jre/lib/fontconfig.SuSE.10.bfc
+jdk1.7.0_25/jre/lib/management-agent.jar
+jdk1.7.0_25/jre/lib/fontconfig.SuSE.11.bfc
+jdk1.7.0_25/jre/lib/amd64/
+jdk1.7.0_25/jre/lib/amd64/libjfxwebkit.so
+jdk1.7.0_25/jre/lib/amd64/libdeploy.so
+jdk1.7.0_25/jre/lib/amd64/libnet.so
+jdk1.7.0_25/jre/lib/amd64/libjavaplugin_jni.so
+jdk1.7.0_25/jre/lib/amd64/libmanagement.so
+jdk1.7.0_25/jre/lib/amd64/libsplashscreen.so
+jdk1.7.0_25/jre/lib/amd64/libhprof.so
+jdk1.7.0_25/jre/lib/amd64/libverify.so
+jdk1.7.0_25/jre/lib/amd64/libjavafx-font.so
+jdk1.7.0_25/jre/lib/amd64/fxavcodecplugin-52.so
+jdk1.7.0_25/jre/lib/amd64/libawt.so
+jdk1.7.0_25/jre/lib/amd64/libsunec.so
+jdk1.7.0_25/jre/lib/amd64/jvm.cfg
+jdk1.7.0_25/jre/lib/amd64/libjdwp.so
+jdk1.7.0_25/jre/lib/amd64/libJdbcOdbc.so
+jdk1.7.0_25/jre/lib/amd64/libdt_socket.so
+jdk1.7.0_25/jre/lib/amd64/libattach.so
+jdk1.7.0_25/jre/lib/amd64/libt2k.so
+jdk1.7.0_25/jre/lib/amd64/libjava.so
+jdk1.7.0_25/jre/lib/amd64/headless/
+jdk1.7.0_25/jre/lib/amd64/headless/libmawt.so
+jdk1.7.0_25/jre/lib/amd64/libnpjp2.so
+jdk1.7.0_25/jre/lib/amd64/libmlib_image.so
+jdk1.7.0_25/jre/lib/amd64/server/
+jdk1.7.0_25/jre/lib/amd64/server/libjsig.so
+jdk1.7.0_25/jre/lib/amd64/server/libjvm.so
+jdk1.7.0_25/jre/lib/amd64/server/Xusage.txt
+jdk1.7.0_25/jre/lib/amd64/libzip.so
+jdk1.7.0_25/jre/lib/amd64/libinstrument.so
+jdk1.7.0_25/jre/lib/amd64/libj2pkcs11.so
+jdk1.7.0_25/jre/lib/amd64/libjaas_unix.so
+jdk1.7.0_25/jre/lib/amd64/libjsound.so
+jdk1.7.0_25/jre/lib/amd64/libjfxmedia.so
+jdk1.7.0_25/jre/lib/amd64/libgstreamer-lite.so
+jdk1.7.0_25/jre/lib/amd64/libnpt.so
+jdk1.7.0_25/jre/lib/amd64/libjsig.so
+jdk1.7.0_25/jre/lib/amd64/libjsoundalsa.so
+jdk1.7.0_25/jre/lib/amd64/libgstplugins-lite.so
+jdk1.7.0_25/jre/lib/amd64/libjfr.so
+jdk1.7.0_25/jre/lib/amd64/libsaproc.so
+jdk1.7.0_25/jre/lib/amd64/libdcpr.so
+jdk1.7.0_25/jre/lib/amd64/fxplugins.so
+jdk1.7.0_25/jre/lib/amd64/libjsdt.so
+jdk1.7.0_25/jre/lib/amd64/libglass.so
+jdk1.7.0_25/jre/lib/amd64/libprism-es2.so
+jdk1.7.0_25/jre/lib/amd64/libfontmanager.so
+jdk1.7.0_25/jre/lib/amd64/jli/
+jdk1.7.0_25/jre/lib/amd64/jli/libjli.so
+jdk1.7.0_25/jre/lib/amd64/libkcms.so
+jdk1.7.0_25/jre/lib/amd64/libjpeg.so
+jdk1.7.0_25/jre/lib/amd64/librmi.so
+jdk1.7.0_25/jre/lib/amd64/libjawt.so
+jdk1.7.0_25/jre/lib/amd64/libnio.so
+jdk1.7.0_25/jre/lib/amd64/libsctp.so
+jdk1.7.0_25/jre/lib/amd64/xawt/
+jdk1.7.0_25/jre/lib/amd64/xawt/libmawt.so
+jdk1.7.0_25/jre/lib/amd64/fxavcodecplugin-53.so
+jdk1.7.0_25/jre/lib/amd64/libj2gss.so
+jdk1.7.0_25/jre/lib/amd64/libj2pcsc.so
+jdk1.7.0_25/jre/lib/amd64/libunpack.so
+jdk1.7.0_25/jre/lib/amd64/libjavafx-iio.so
+jdk1.7.0_25/jre/lib/amd64/libjava_crw_demo.so
+jdk1.7.0_25/jre/lib/javafx.properties
+jdk1.7.0_25/jre/lib/jfxrt.jar
+jdk1.7.0_25/jre/lib/fontconfig.properties.src
+jdk1.7.0_25/jre/lib/cmm/
+jdk1.7.0_25/jre/lib/cmm/LINEAR_RGB.pf
+jdk1.7.0_25/jre/lib/cmm/CIEXYZ.pf
+jdk1.7.0_25/jre/lib/cmm/GRAY.pf
+jdk1.7.0_25/jre/lib/cmm/PYCC.pf
+jdk1.7.0_25/jre/lib/cmm/sRGB.pf
+jdk1.7.0_25/jre/lib/fontconfig.RedHat.6.properties.src
+jdk1.7.0_25/jre/lib/fontconfig.bfc
+jdk1.7.0_25/jre/bin/
+jdk1.7.0_25/jre/bin/java
+jdk1.7.0_25/jre/bin/unpack200
+jdk1.7.0_25/jre/bin/keytool
+jdk1.7.0_25/jre/bin/pack200
+jdk1.7.0_25/jre/bin/servertool
+jdk1.7.0_25/jre/bin/jcontrol
+jdk1.7.0_25/jre/bin/orbd
+jdk1.7.0_25/jre/bin/rmid
+jdk1.7.0_25/jre/bin/rmiregistry
+jdk1.7.0_25/jre/bin/ControlPanel
+jdk1.7.0_25/jre/bin/tnameserv
+jdk1.7.0_25/jre/bin/javaws
+jdk1.7.0_25/jre/bin/java_vm
+jdk1.7.0_25/jre/bin/policytool
+jdk1.7.0_25/jre/THIRDPARTYLICENSEREADME-JAVAFX.txt
+jdk1.7.0_25/jre/README
+jdk1.7.0_25/jre/LICENSE
+jdk1.7.0_25/jre/plugin/
+jdk1.7.0_25/jre/plugin/desktop/
+jdk1.7.0_25/jre/plugin/desktop/sun_java.desktop
+jdk1.7.0_25/jre/plugin/desktop/sun_java.png
+jdk1.7.0_25/jre/THIRDPARTYLICENSEREADME.txt
+jdk1.7.0_25/jre/COPYRIGHT
+jdk1.7.0_25/include/
+jdk1.7.0_25/include/classfile_constants.h
+jdk1.7.0_25/include/jni.h
+jdk1.7.0_25/include/linux/
+jdk1.7.0_25/include/linux/jni_md.h
+jdk1.7.0_25/include/linux/jawt_md.h
+jdk1.7.0_25/include/jvmti.h
+jdk1.7.0_25/include/jvmticmlr.h
+jdk1.7.0_25/include/jdwpTransport.h
+jdk1.7.0_25/include/jawt.h
+jdk1.7.0_25/release
+jdk1.7.0_25/THIRDPARTYLICENSEREADME-JAVAFX.txt
+jdk1.7.0_25/README.html
+jdk1.7.0_25/LICENSE
+jdk1.7.0_25/man/
+jdk1.7.0_25/man/ja
+jdk1.7.0_25/man/ja_JP.UTF-8/
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/wsgen.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jps.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/javap.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jvisualvm.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/native2ascii.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/rmiregistry.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/wsimport.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jar.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/servertool.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/unpack200.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/idlj.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/rmic.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/javah.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/rmid.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jsadebugd.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/serialver.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jdb.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/apt.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jinfo.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jconsole.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/orbd.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jstack.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/policytool.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jstat.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/tnameserv.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/javaws.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jrunscript.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/javac.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/schemagen.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jhat.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/java.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jcmd.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/xjc.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jarsigner.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/appletviewer.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/javafxpackager.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/pack200.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/keytool.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/extcheck.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jmap.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/jstatd.1
+jdk1.7.0_25/man/ja_JP.UTF-8/man1/javadoc.1
+jdk1.7.0_25/man/man1/
+jdk1.7.0_25/man/man1/wsgen.1
+jdk1.7.0_25/man/man1/jps.1
+jdk1.7.0_25/man/man1/javap.1
+jdk1.7.0_25/man/man1/jvisualvm.1
+jdk1.7.0_25/man/man1/native2ascii.1
+jdk1.7.0_25/man/man1/rmiregistry.1
+jdk1.7.0_25/man/man1/wsimport.1
+jdk1.7.0_25/man/man1/jar.1
+jdk1.7.0_25/man/man1/servertool.1
+jdk1.7.0_25/man/man1/unpack200.1
+jdk1.7.0_25/man/man1/idlj.1
+jdk1.7.0_25/man/man1/rmic.1
+jdk1.7.0_25/man/man1/javah.1
+jdk1.7.0_25/man/man1/rmid.1
+jdk1.7.0_25/man/man1/jsadebugd.1
+jdk1.7.0_25/man/man1/serialver.1
+jdk1.7.0_25/man/man1/jdb.1
+jdk1.7.0_25/man/man1/apt.1
+jdk1.7.0_25/man/man1/jinfo.1
+jdk1.7.0_25/man/man1/jconsole.1
+jdk1.7.0_25/man/man1/orbd.1
+jdk1.7.0_25/man/man1/jstack.1
+jdk1.7.0_25/man/man1/policytool.1
+jdk1.7.0_25/man/man1/jstat.1
+jdk1.7.0_25/man/man1/tnameserv.1
+jdk1.7.0_25/man/man1/javaws.1
+jdk1.7.0_25/man/man1/jrunscript.1
+jdk1.7.0_25/man/man1/javac.1
+jdk1.7.0_25/man/man1/schemagen.1
+jdk1.7.0_25/man/man1/jhat.1
+jdk1.7.0_25/man/man1/java.1
+jdk1.7.0_25/man/man1/jcmd.1
+jdk1.7.0_25/man/man1/xjc.1
+jdk1.7.0_25/man/man1/jarsigner.1
+jdk1.7.0_25/man/man1/appletviewer.1
+jdk1.7.0_25/man/man1/javafxpackager.1
+jdk1.7.0_25/man/man1/pack200.1
+jdk1.7.0_25/man/man1/keytool.1
+jdk1.7.0_25/man/man1/extcheck.1
+jdk1.7.0_25/man/man1/jmap.1
+jdk1.7.0_25/man/man1/jstatd.1
+jdk1.7.0_25/man/man1/javadoc.1
+jdk1.7.0_25/THIRDPARTYLICENSEREADME.txt
+jdk1.7.0_25/COPYRIGHT
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo vim ~/.bashrc
+sudo: vim：找不到命令
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo apt-get install vim
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有一些软件包无法被安装。如果您用的是 unstable 发行版，这也许是
+因为系统无法达到您要求的状态造成的。该版本中可能会有一些您需要的软件
+包尚未被创建或是它们已被从新到(Incoming)目录移出。
+下列信息可能会对解决问题有所帮助：
+
+下列软件包有未满足的依赖关系：
+ vim : 依赖: vim-common (= 2:7.4.1689-3ubuntu1) 但是 2:7.4.1689-3ubuntu1.2 正要被安装
+E: 无法修正错误，因为您要求某些软件包保持现状，就是它们破坏了软件包间的依赖关系。
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo apt-get remove vim-common
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+下列软件包将被【卸载】：
+  ubuntu-minimal vim-common vim-tiny
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 3 个软件包，有 0 个软件包未被升级。
+解压缩后将会空出 1,520 kB 的空间。
+您希望继续执行吗？ [Y/n] Y
+(正在读取数据库 ... 系统当前共安装有 179418 个文件和目录。)
+正在卸载 ubuntu-minimal (1.361) ...
+正在卸载 vim-tiny (2:7.4.1689-3ubuntu1.2) ...
+正在卸载 vim-common (2:7.4.1689-3ubuntu1.2) ...
+正在处理用于 man-db (2.7.5-1) 的触发器 ...
+正在处理用于 mime-support (3.59ubuntu1) 的触发器 ...
+正在处理用于 hicolor-icon-theme (0.15-0ubuntu1) 的触发器 ...
+正在处理用于 gnome-menus (3.13.3-6ubuntu3.1) 的触发器 ...
+正在处理用于 desktop-file-utils (0.22-1ubuntu5) 的触发器 ...
+正在处理用于 bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) 的触发器 ...
+Rebuilding /usr/share/applications/bamf-2.index...
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ 
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ 
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo apt-get install vim
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+将会同时安装下列软件：
+  vim-common vim-runtime
+建议安装：
+  ctags vim-doc vim-scripts vim-gnome-py2 | vim-gtk-py2 | vim-gtk3-py2
+  | vim-athena-py2 | vim-nox-py2
+下列【新】软件包将被安装：
+  vim vim-common vim-runtime
+升级了 0 个软件包，新安装了 3 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+需要下载 6,287 kB 的归档。
+解压缩后会消耗 30.3 MB 的额外空间。
+您希望继续执行吗？ [Y/n] Y
+获取:1 http://mirrors.sohu.com/ubuntu xenial/main amd64 vim-common amd64 2:7.4.1689-3ubuntu1 [104 kB]
+获取:2 http://mirrors.sohu.com/ubuntu xenial/main amd64 vim-runtime all 2:7.4.1689-3ubuntu1 [5,175 kB]
+获取:3 http://mirrors.sohu.com/ubuntu xenial/main amd64 vim amd64 2:7.4.1689-3ubuntu1 [1,008 kB]
+已下载 6,287 kB，耗时 12秒 (493 kB/s)                                          
+正在选中未选择的软件包 vim-common。
+(正在读取数据库 ... 系统当前共安装有 179349 个文件和目录。)
+正准备解包 .../vim-common_2%3a7.4.1689-3ubuntu1_amd64.deb  ...
+正在解包 vim-common (2:7.4.1689-3ubuntu1) ...
+正在选中未选择的软件包 vim-runtime。
+正准备解包 .../vim-runtime_2%3a7.4.1689-3ubuntu1_all.deb  ...
+正在添加 vim-runtime 导致 /usr/share/vim/vim74/doc/help.txt 转移到 /usr/share/vim/vim74/doc/help.txt.vim-tiny
+正在添加 vim-runtime 导致 /usr/share/vim/vim74/doc/tags 转移到 /usr/share/vim/vim74/doc/tags.vim-tiny
+正在解包 vim-runtime (2:7.4.1689-3ubuntu1) ...
+正在选中未选择的软件包 vim。
+正准备解包 .../vim_2%3a7.4.1689-3ubuntu1_amd64.deb  ...
+正在解包 vim (2:7.4.1689-3ubuntu1) ...
+正在处理用于 mime-support (3.59ubuntu1) 的触发器 ...
+正在处理用于 gnome-menus (3.13.3-6ubuntu3.1) 的触发器 ...
+正在处理用于 desktop-file-utils (0.22-1ubuntu5) 的触发器 ...
+正在处理用于 bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) 的触发器 ...
+Rebuilding /usr/share/applications/bamf-2.index...
+正在处理用于 hicolor-icon-theme (0.15-0ubuntu1) 的触发器 ...
+正在处理用于 man-db (2.7.5-1) 的触发器 ...
+正在设置 vim-common (2:7.4.1689-3ubuntu1) ...
+正在设置 vim-runtime (2:7.4.1689-3ubuntu1) ...
+正在设置 vim (2:7.4.1689-3ubuntu1) ...
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/vim (vim)
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/vimdiff (vimdiff)
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/rvim (rvim)
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/rview (rview)
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/vi (vi)
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/view (view)
+update-alternatives: 使用 /usr/bin/vim.basic 来在自动模式中提供 /usr/bin/ex (ex)
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ 
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ 
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ sudo vim ~/.bashrc
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ ls
+jdk1.7.0_25  jdk-7u25-linux-x64.tar.gz
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ 
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ 
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ source ~/.bashrc
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ echo $JAVA_HOME
+/usr/lib/jvm/jdk1.7.0_25
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ java -ver
+-verbose:  -version   -version:  
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ java -ver
+-verbose:  -version   -version:  
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ java -version
+java version "1.7.0_25"
+Java(TM) SE Runtime Environment (build 1.7.0_25-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 23.25-b01, mixed mode)
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib/jvm$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/usr/lib$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/usr$ cd..
+cd..：未找到命令
+hadoop@zhouwei-Aspire-E5-471G:/usr$ cd ..
+hadoop@zhouwei-Aspire-E5-471G:/$ sudo tar-zxf /home/zhouwei/myfile/hadoop-2.7.3.tar.gz -C /usr/local 
+sudo: tar-zxf：找不到命令
+hadoop@zhouwei-Aspire-E5-471G:/$ sudo tar -zxf /home/zhouwei/myfile/hadoop-2.7.3.tar.gz -C /usr/local 
+hadoop@zhouwei-Aspire-E5-471G:/$ cd usr/local
+hadoop@zhouwei-Aspire-E5-471G:/usr/local$ sudo mv ./hadoop-2.7.3/  ./hadoop
+hadoop@zhouwei-Aspire-E5-471G:/usr/local$ sudo chown -R hadoop  ./hadoop/
+hadoop@zhouwei-Aspire-E5-471G:/usr/local$ sudo chown -R hadoop  ./hadoop
+hadoop@zhouwei-Aspire-E5-471G:/usr/local$ cd hadoop/
+hadoop@zhouwei-Aspire-E5-471G:/usr/local/hadoop$ ./bin/hadoop version 
+Hadoop 2.7.3
+Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r baa91f7c6bc9cb92be5982de4719c1c8af91ccff
+Compiled by root on 2016-08-18T01:41Z
+Compiled with protoc 2.5.0
+From source with checksum 2e4ce5f957ea4db193bce3734ff29ff4
+This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-2.7.3.jar
+hadoop@zhouwei-Aspire-E5-471G:/usr/local/hadoop$ mkdir ./input 
+hadoop@zhouwei-Aspire-E5-471G:/usr/local/hadoop$ ./bin/hadoop jar ./share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar grep ./input/ ./output 'dfs[a-z.]+'
+17/06/26 23:13:45 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+17/06/26 23:13:45 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+17/06/26 23:13:45 INFO input.FileInputFormat: Total input paths to process : 8
+17/06/26 23:13:45 INFO mapreduce.JobSubmitter: number of splits:8
+17/06/26 23:13:46 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local429212352_0001
+17/06/26 23:13:46 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+17/06/26 23:13:46 INFO mapreduce.Job: Running job: job_local429212352_0001
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+17/06/26 23:13:46 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: Waiting for map tasks
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000000_0
+17/06/26 23:13:46 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:46 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:46 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/hadoop-policy.xml:0+9683
+17/06/26 23:13:46 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:46 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:46 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:46 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:46 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:46 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:46 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:46 INFO mapred.MapTask: Spilling map output
+17/06/26 23:13:46 INFO mapred.MapTask: bufstart = 0; bufend = 17; bufvoid = 104857600
+17/06/26 23:13:46 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+17/06/26 23:13:46 INFO mapred.MapTask: Finished spill 0
+17/06/26 23:13:46 INFO mapred.Task: Task:attempt_local429212352_0001_m_000000_0 is done. And is in the process of committing
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:46 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000000_0' done.
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000000_0
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000001_0
+17/06/26 23:13:46 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:46 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:46 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/kms-site.xml:0+5511
+17/06/26 23:13:46 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:46 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:46 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:46 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:46 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:46 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:46 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:46 INFO mapred.Task: Task:attempt_local429212352_0001_m_000001_0 is done. And is in the process of committing
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:46 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000001_0' done.
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000001_0
+17/06/26 23:13:46 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000002_0
+17/06/26 23:13:46 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:46 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:46 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/capacity-scheduler.xml:0+4436
+17/06/26 23:13:46 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:46 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:46 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:46 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:46 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:46 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_m_000002_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000002_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000002_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000003_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/kms-acls.xml:0+3518
+17/06/26 23:13:47 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:47 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:47 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_m_000003_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000003_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000003_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000004_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/hdfs-site.xml:0+775
+17/06/26 23:13:47 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:47 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:47 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_m_000004_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000004_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000004_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000005_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/core-site.xml:0+774
+17/06/26 23:13:47 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:47 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:47 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_m_000005_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000005_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000005_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000006_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/yarn-site.xml:0+690
+17/06/26 23:13:47 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:47 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:47 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_m_000006_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000006_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000006_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_m_000007_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/input/httpfs-site.xml:0+620
+17/06/26 23:13:47 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:47 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:47 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_m_000007_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_m_000007_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_m_000007_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map task executor complete.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local429212352_0001_r_000000_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7105f21c
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=370533984, maxSingleShuffleLimit=92633496, mergeThreshold=244552432, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+17/06/26 23:13:47 INFO reduce.EventFetcher: attempt_local429212352_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000005_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000005_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000000_0 decomp: 21 len: 25 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 21 bytes from map-output for attempt_local429212352_0001_m_000000_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 21, inMemoryMapOutputs.size() -> 2, commitMemory -> 2, usedMemory ->23
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000004_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000004_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 3, commitMemory -> 23, usedMemory ->25
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000007_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000007_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 4, commitMemory -> 25, usedMemory ->27
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000001_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000001_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 5, commitMemory -> 27, usedMemory ->29
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000003_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000003_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 6, commitMemory -> 29, usedMemory ->31
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000006_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000006_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 7, commitMemory -> 31, usedMemory ->33
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local429212352_0001_m_000002_0 decomp: 2 len: 6 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 2 bytes from map-output for attempt_local429212352_0001_m_000002_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 8, commitMemory -> 33, usedMemory ->35
+17/06/26 23:13:47 INFO reduce.EventFetcher: EventFetcher is interrupted.. Returning
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 8 / 8 copied.
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: finalMerge called with 8 in-memory map-outputs and 0 on-disk map-outputs
+17/06/26 23:13:47 INFO mapred.Merger: Merging 8 sorted segments
+17/06/26 23:13:47 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 10 bytes
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: Merged 8 segments, 35 bytes to disk to satisfy reduce memory limit
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: Merging 1 files, 25 bytes from disk
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+17/06/26 23:13:47 INFO mapred.Merger: Merging 1 sorted segments
+17/06/26 23:13:47 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 10 bytes
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 8 / 8 copied.
+17/06/26 23:13:47 INFO Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local429212352_0001_r_000000_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 8 / 8 copied.
+17/06/26 23:13:47 INFO mapred.Task: Task attempt_local429212352_0001_r_000000_0 is allowed to commit now
+17/06/26 23:13:47 INFO output.FileOutputCommitter: Saved output of task 'attempt_local429212352_0001_r_000000_0' to file:/usr/local/hadoop/grep-temp-22994047/_temporary/0/task_local429212352_0001_r_000000
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local429212352_0001_r_000000_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local429212352_0001_r_000000_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: reduce task executor complete.
+17/06/26 23:13:47 INFO mapreduce.Job: Job job_local429212352_0001 running in uber mode : false
+17/06/26 23:13:47 INFO mapreduce.Job:  map 100% reduce 100%
+17/06/26 23:13:47 INFO mapreduce.Job: Job job_local429212352_0001 completed successfully
+17/06/26 23:13:47 INFO mapreduce.Job: Counters: 30
+	File System Counters
+		FILE: Number of bytes read=2892349
+		FILE: Number of bytes written=5245310
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=745
+		Map output records=1
+		Map output bytes=17
+		Map output materialized bytes=67
+		Input split bytes=869
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=67
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =8
+		Failed Shuffles=0
+		Merged Map outputs=8
+		GC time elapsed (ms)=50
+		Total committed heap usage (bytes)=4050649088
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=26007
+	File Output Format Counters 
+		Bytes Written=123
+17/06/26 23:13:47 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+17/06/26 23:13:47 INFO input.FileInputFormat: Total input paths to process : 1
+17/06/26 23:13:47 INFO mapreduce.JobSubmitter: number of splits:1
+17/06/26 23:13:47 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local1537612939_0002
+17/06/26 23:13:47 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+17/06/26 23:13:47 INFO mapreduce.Job: Running job: job_local1537612939_0002
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Waiting for map tasks
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local1537612939_0002_m_000000_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.MapTask: Processing split: file:/usr/local/hadoop/grep-temp-22994047/part-r-00000:0+111
+17/06/26 23:13:47 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/06/26 23:13:47 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/06/26 23:13:47 INFO mapred.MapTask: soft limit at 83886080
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 
+17/06/26 23:13:47 INFO mapred.MapTask: Starting flush of map output
+17/06/26 23:13:47 INFO mapred.MapTask: Spilling map output
+17/06/26 23:13:47 INFO mapred.MapTask: bufstart = 0; bufend = 17; bufvoid = 104857600
+17/06/26 23:13:47 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+17/06/26 23:13:47 INFO mapred.MapTask: Finished spill 0
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local1537612939_0002_m_000000_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local1537612939_0002_m_000000_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local1537612939_0002_m_000000_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: map task executor complete.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Starting task: attempt_local1537612939_0002_r_000000_0
+17/06/26 23:13:47 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/06/26 23:13:47 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/06/26 23:13:47 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@1d2ac818
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=366634592, maxSingleShuffleLimit=91658648, mergeThreshold=241978848, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+17/06/26 23:13:47 INFO reduce.EventFetcher: attempt_local1537612939_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+17/06/26 23:13:47 INFO reduce.LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local1537612939_0002_m_000000_0 decomp: 21 len: 25 to MEMORY
+17/06/26 23:13:47 INFO reduce.InMemoryMapOutput: Read 21 bytes from map-output for attempt_local1537612939_0002_m_000000_0
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 21, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->21
+17/06/26 23:13:47 INFO reduce.EventFetcher: EventFetcher is interrupted.. Returning
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+17/06/26 23:13:47 INFO mapred.Merger: Merging 1 sorted segments
+17/06/26 23:13:47 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 11 bytes
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: Merged 1 segments, 21 bytes to disk to satisfy reduce memory limit
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: Merging 1 files, 25 bytes from disk
+17/06/26 23:13:47 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+17/06/26 23:13:47 INFO mapred.Merger: Merging 1 sorted segments
+17/06/26 23:13:47 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 11 bytes
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/06/26 23:13:47 INFO mapred.Task: Task:attempt_local1537612939_0002_r_000000_0 is done. And is in the process of committing
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/06/26 23:13:47 INFO mapred.Task: Task attempt_local1537612939_0002_r_000000_0 is allowed to commit now
+17/06/26 23:13:47 INFO output.FileOutputCommitter: Saved output of task 'attempt_local1537612939_0002_r_000000_0' to file:/usr/local/hadoop/output/_temporary/0/task_local1537612939_0002_r_000000
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: reduce > reduce
+17/06/26 23:13:47 INFO mapred.Task: Task 'attempt_local1537612939_0002_r_000000_0' done.
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: Finishing task: attempt_local1537612939_0002_r_000000_0
+17/06/26 23:13:47 INFO mapred.LocalJobRunner: reduce task executor complete.
+17/06/26 23:13:48 INFO mapreduce.Job: Job job_local1537612939_0002 running in uber mode : false
+17/06/26 23:13:48 INFO mapreduce.Job:  map 100% reduce 100%
+17/06/26 23:13:48 INFO mapreduce.Job: Job job_local1537612939_0002 completed successfully
+17/06/26 23:13:48 INFO mapreduce.Job: Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1248138
+		FILE: Number of bytes written=2330352
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1
+		Map output records=1
+		Map output bytes=17
+		Map output materialized bytes=25
+		Input split bytes=119
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=25
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1047527424
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=123
+	File Output Format Counters 
+		Bytes Written=23
+hadoop@zhouwei-Aspire-E5-471G:/usr/local/hadoop$ cat ./output/
+cat: ./output/: 是一个目录
+hadoop@zhouwei-Aspire-E5-471G:/usr/local/hadoop$ cat ./output/*
+1	dfsadmin
+hadoop@zhouwei-Aspire-E5-471G:/usr/local/hadoop$ 
+
